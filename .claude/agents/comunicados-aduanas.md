@@ -25,7 +25,7 @@ Entrada: el texto del correo que el usuario ha pegado.
 3. Devuelve el borrador en **texto plano**, listo para leer en el chat:
 
 ```
-Nombre interno HubSpot: AAAA MM <tema corto>_aduanas
+Nombre interno HubSpot: AAAA MM AEAT DD/MM_Suite + Empuries
 Asunto: …
 Previsualización: …
 

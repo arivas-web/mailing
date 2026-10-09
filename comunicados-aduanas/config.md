@@ -8,6 +8,7 @@ Valores que usa el subagente `comunicados-aduanas`. Edita aquí, no en el prompt
 - Acceso: API de HubSpot con token de app privada (scope `content`) guardado como secreto de GitHub `HUBSPOT_TOKEN` (nunca en el código). Se usa desde el workflow `.github/workflows/hubspot.yml`, que ejecuta `comunicados-aduanas/hubspot_api.py`.
 - Creación: se **clona** el email base de abajo (hecho con la plantilla Genérica Visual Trans) y se sustituyen los textos.
 - Email base para clonar (`marketingEmailObjectId`): **PENDIENTE** — crea en HubSpot un email vacío con la plantilla "Genérica Visual Trans", llámalo `BASE comunicados aduanas` y pon aquí su ID.
-- Nombre interno: `AAAA MM <tema corto>_aduanas` (ej. `2026 10 cambios DUA_aduanas`), igual que el resto de emails del portal.
+- Nombre interno: `AAAA MM AEAT DD/MM_Suite + Empuries` (ej. `2026 09 AEAT 23/09_Suite + Empuries`), igual que los comunicados anteriores. Si hay dos el mismo día: `AAAA MM AEAT 2 DD/MM_…`.
+- Los IDs para la API son el `hs_origin_asset_id` (el número de la URL del editor de HubSpot), no el `hs_object_id` del CRM.
 - Remitente: los comunicados anteriores salen de `soporte@visualtrans.com`. Si se clona el email base se heredan; si no, confirmar con el usuario (`LIST_FROM_ADDRESSES`, `LIST_SUBSCRIPTION_TYPES`) y anotarlo aquí.
 - Tipo: BATCH. Se deja siempre guardado como **borrador**; nunca se programa ni se envía.
