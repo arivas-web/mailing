@@ -1,12 +1,12 @@
 ---
-description: Revisa Gmail en busca de "Novedades AEAT" y propone el comunicado de aduanas
+description: Convierte una novedad de aduanas/AEAT pegada en el chat en un comunicado y, tras tu OK, lo crea como borrador en HubSpot
 ---
 
-Lanza el subagente `comunicados-aduanas` en modo DETECTAR.
+Lanza el subagente `comunicados-aduanas` en modo BORRADOR con el texto que te paso abajo.
 
-- Si devuelve `SIN NOVEDADES`, dilo en una línea.
-- Si devuelve borradores, enséñamelos completos tal cual y pregúntame si los valido o qué cambio.
-- Cuando yo valide un borrador (con o sin cambios), lanza de nuevo `comunicados-aduanas` en modo PUBLICAR pasándole el texto final y el threadId, y dame el enlace de HubSpot que devuelva.
-- No pases a PUBLICAR sin mi validación explícita.
+- Enséñame el borrador completo, en texto plano, tal cual lo devuelva.
+- Si te pido cambios, aplícalos y vuelve a enseñarme el borrador completo.
+- Cuando te diga OK, lanza `comunicados-aduanas` en modo PUBLICAR con el texto final y dame el enlace de HubSpot.
+- No pases a PUBLICAR sin mi OK explícito.
 
 $ARGUMENTS
