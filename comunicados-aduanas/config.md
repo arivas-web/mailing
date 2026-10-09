@@ -5,7 +5,7 @@ Valores que usa el subagente `comunicados-aduanas`. Edita aquí, no en el prompt
 ## HubSpot
 
 - Plantilla: **Genérica Visual Trans**
-- Acceso: API de HubSpot con token de app privada (scope `content`) en la variable de entorno `HUBSPOT_TOKEN` del entorno cloud (nunca en el repo, que es público). Dominio `api.hubapi.com` permitido en Network access. Script: `comunicados-aduanas/hubspot_api.py`.
+- Acceso: API de HubSpot con token de app privada (scope `content`) guardado como secreto de GitHub `HUBSPOT_TOKEN` (nunca en el código). Se usa desde el workflow `.github/workflows/hubspot.yml`, que ejecuta `comunicados-aduanas/hubspot_api.py`.
 - Creación: se **clona** el email base de abajo (hecho con la plantilla Genérica Visual Trans) y se sustituyen los textos.
 - Email base para clonar (`marketingEmailObjectId`): **PENDIENTE** — crea en HubSpot un email vacío con la plantilla "Genérica Visual Trans", llámalo `BASE comunicados aduanas` y pon aquí su ID.
 - Nombre interno: `AAAA MM <tema corto>_aduanas` (ej. `2026 10 cambios DUA_aduanas`), igual que el resto de emails del portal.
