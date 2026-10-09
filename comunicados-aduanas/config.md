@@ -28,4 +28,4 @@ Valores que usa el subagente `comunicados-aduanas`. Edita aquí, no en el prompt
   - Suscripción: Marketing Information (890648983), la misma que el base.
 - Nombre interno: `AAAA MM AEAT DD/MM_Suite + Empuries` (ej. `2026 09 AEAT 23/09_Suite + Empuries`), igual que los comunicados anteriores. Si hay dos el mismo día: `AAAA MM AEAT 2 DD/MM_…`.
 - Los IDs para la API son el `hs_origin_asset_id` (el número de la URL del editor de HubSpot), no el `hs_object_id` del CRM.
-- Tipo: BATCH. Se deja siempre guardado como **borrador**; nunca se programa ni se envía.
+- Tipo: BATCH. **Siempre borrador. Prohibido enviar, publicar o programar.** El envío lo hace una persona a mano desde HubSpot.

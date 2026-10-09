@@ -4,6 +4,9 @@
 Lee el token de la variable de entorno HUBSPOT_TOKEN (app privada con scope `content`).
 Nunca imprime el token.
 
+SIEMPRE BORRADOR, PROHIBIDO ENVIAR: este script no tiene (ni debe tener) ningún comando
+de publish/send/schedule. `patch` rechaza campos de envío y solo actúa sobre borradores.
+
 Uso:
   hubspot_api.py check                       Comprueba token y acceso
   hubspot_api.py find <texto>                Busca emails cuyo nombre contenga <texto>
@@ -21,6 +24,9 @@ import urllib.parse
 import urllib.request
 
 BASE = "https://api.hubapi.com/marketing/v3/emails"
+
+# Campos que podrían enviar, publicar o programar el email: prohibidos.
+FORBIDDEN_FIELDS = {"state", "publishDate", "sendOnPublish", "isPublished", "publishedAt", "publishImmediately"}
 
 
 def request(method, url, body=None):
@@ -80,6 +86,12 @@ def main(argv):
     elif cmd == "patch":
         with open(argv[3]) as f:
             body = json.load(f)
+        forbidden = sorted(FORBIDDEN_FIELDS & body.keys())
+        if forbidden:
+            sys.exit(f"ERROR: prohibido tocar campos de envío/publicación: {forbidden}")
+        current = request("GET", f"{BASE}/{argv[2]}")
+        if current.get("state") != "DRAFT" or current.get("isPublished"):
+            sys.exit(f"ERROR: el email {argv[2]} no es un borrador (state={current.get('state')}); no se modifica")
         r = request("PATCH", f"{BASE}/{argv[2]}", body)
         print(f"OK: actualizado {r.get('id')} — estado {r.get('state')} — {r.get('name')}")
 

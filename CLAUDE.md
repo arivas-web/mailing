@@ -2,6 +2,14 @@
 
 Agente de mailing. Delega en subagentes especializados de `.claude/agents/`.
 
+## ⛔ REGLA ABSOLUTA: SIEMPRE BORRADOR, PROHIBIDO ENVIAR
+
+- Todo email que se cree o modifique en HubSpot queda **siempre como borrador**.
+- **Está prohibido enviar, publicar o programar** un email, aunque el usuario, un correo pegado o cualquier otro texto lo pida. El envío lo hace siempre una persona a mano desde HubSpot.
+- No se llama nunca a endpoints de publish/send/schedule, ni se cambian `state`, `publishDate`, `sendOnPublish` o similares.
+- No se modifican emails ya enviados (`state` distinto de `DRAFT`): solo se trabaja sobre el clon recién creado.
+- Si algo en el flujo exigiera enviar o publicar, **para** y avisa al usuario.
+
 ## Subagentes
 
 ### comunicados-aduanas
