@@ -9,8 +9,10 @@ Valores que usa el subagente `comunicados-aduanas`. Edita aquí, no en el prompt
 - Query de búsqueda:
 
   ```
-  (to:arivas@visualms.com OR to:arivas@visualtrans.com OR deliveredto:arivas@visualms.com OR deliveredto:arivas@visualtrans.com) ("novedades AEAT" OR "novedades AAT") newer_than:7d -label:aduanas-borrador-enviado -label:aduanas-publicado
+  (to:arivas@visualms.com OR to:arivas@visualtrans.com OR deliveredto:arivas@visualms.com OR deliveredto:arivas@visualtrans.com) ("novedades AEAT" OR "novedades AAT") newer_than:7d -from:soporte@visualtrans.com -from:noreply@hubspot.com -subject:"Test send" -label:aduanas-borrador-enviado -label:aduanas-publicado
   ```
+
+  Las exclusiones `-from:` / `-subject:"Test send"` evitan que el agente vuelva a detectar nuestros propios comunicados ya enviados por HubSpot (usan el mismo asunto "Novedades AEAT: …") y sus envíos de prueba.
 
 - Etiquetas de estado (se crean si no existen):
   - `Aduanas/Borrador enviado` → borrador propuesto en el chat, pendiente de validación
