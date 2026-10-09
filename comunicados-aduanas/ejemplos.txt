@@ -1,0 +1,4 @@
+PENDIENTE: pegar aquí los ejemplos de comunicados de aduanas (estructura, tono, saludo, cierre).
+
+El subagente comunicados-aduanas lee este archivo antes de redactar cada borrador
+y debe imitar su estructura y estilo.
