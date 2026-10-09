@@ -1,0 +1,38 @@
+name: HubSpot
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "Comando de hubspot_api.py"
+        type: choice
+        options: [check, find, get, clone, patch]
+        default: check
+      arg1:
+        description: "Argumento 1 (emailId o texto a buscar)"
+        required: false
+        default: ""
+      arg2:
+        description: "Argumento 2 (nombre del clon o ruta del JSON de cambios en el repo)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hubspot_api.py ${{ inputs.command }}
+        env:
+          HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
+          CMD: ${{ inputs.command }}
+          ARG1: ${{ inputs.arg1 }}
+          ARG2: ${{ inputs.arg2 }}
+        run: |
+          args=("$CMD")
+          [ -n "$ARG1" ] && args+=("$ARG1")
+          [ -n "$ARG2" ] && args+=("$ARG2")
+          python3 comunicados-aduanas/hubspot_api.py "${args[@]}"
