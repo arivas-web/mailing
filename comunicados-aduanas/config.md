@@ -21,8 +21,11 @@ Valores que usa el subagente `comunicados-aduanas`. Edita aquí, no en el prompt
   | `preview_text` | text | texto de previsualización (`body.value`) | sí |
 - Solo hay un botón. Si el comunicado tiene varias novedades, cada una va en el cuerpo con su enlace "Más información" como `<a href>` en línea; el botón se usa para el enlace principal.
 - Al hacer PATCH se envía el objeto `content.widgets` completo (copiado del `get` del clon) con solo esos campos modificados.
-- Remitente, firma y listas: **PENDIENTE de decidir**. El email base sale de Emma González (egonzalez@visualtrans.com, firma "Emma González / Marketing en Visual Trans") con sus listas de destinatarios. Los comunicados AEAT anteriores salían de soporte@visualtrans.com, firmados "Equipo de Visual Trans", a las listas Suite + Empuries. El clon hereda remitente y listas del base: ajustarlos en el PATCH cuando se decida.
+- Remitente, firma y destinatarios (iguales que los comunicados AEAT anteriores, p. ej. 478691292350). El clon hereda los de Emma del email base, así que el PATCH **siempre** los sobrescribe con estos:
+  - `from`: `{"fromName": "Equipo Visual Trans", "replyTo": "soporte@visualtrans.com"}`
+  - Firma (`module-5-0-0`): `<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style="font-weight: bold;">Equipo de Visual Trans</span></p>`
+  - `to` (listas Suite + Empuries): `{"contactIlsLists": {"include": ["195","100","250","718"], "exclude": ["259","780"]}, "contactLists": {"include": ["106","36","130","433"], "exclude": ["137","468"]}}`
+  - Suscripción: Marketing Information (890648983), la misma que el base.
 - Nombre interno: `AAAA MM AEAT DD/MM_Suite + Empuries` (ej. `2026 09 AEAT 23/09_Suite + Empuries`), igual que los comunicados anteriores. Si hay dos el mismo día: `AAAA MM AEAT 2 DD/MM_…`.
 - Los IDs para la API son el `hs_origin_asset_id` (el número de la URL del editor de HubSpot), no el `hs_object_id` del CRM.
-- Remitente: los comunicados anteriores salen de `soporte@visualtrans.com`. Si se clona el email base se heredan; si no, confirmar con el usuario (`LIST_FROM_ADDRESSES`, `LIST_SUBSCRIPTION_TYPES`) y anotarlo aquí.
 - Tipo: BATCH. Se deja siempre guardado como **borrador**; nunca se programa ni se envía.

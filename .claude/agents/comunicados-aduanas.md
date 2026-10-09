@@ -60,7 +60,7 @@ Pasos:
 2. Email base: el ID de `config.md`. Si sigue PENDIENTE, para y devuelve `BLOQUEADO: confirmar email base`.
 3. `clone` con `arg1 = <idBase>`, `arg2 = <nombre interno validado>` → id del nuevo borrador (última línea del log).
 4. `get` con `arg1 = <idNuevo>` y lee `content.widgets` en el log: localiza los módulos de texto (titular, cuerpo), los botones y sus URLs.
-5. Escribe `comunicados-aduanas/envios/<idNuevo>.json` con `subject`, `previewText` y `content.widgets`, cambiando **solo** textos y enlaces (respeta ids, tipos, estilos y el resto de módulos). Si hay más novedades que bloques en la base, duplica el bloque de novedad con un id nuevo. Haz commit y `git push origin main` (siempre en `main`, nunca en otra rama).
+5. Escribe `comunicados-aduanas/envios/<idNuevo>.json` con `subject`, `from`, `to`, `previewText` y `content.widgets` (remitente, firma y listas según `config.md`), cambiando **solo** textos y enlaces (respeta ids, tipos, estilos y el resto de módulos). Si hay más novedades que bloques en la base, duplica el bloque de novedad con un id nuevo. Haz commit y `git push origin main` (siempre en `main`, nunca en otra rama).
 6. `patch` con `arg1 = <idNuevo>`, `arg2 = comunicados-aduanas/envios/<idNuevo>.json`, y luego `get` para comprobar el resultado.
 7. Déjalo guardado como **borrador**. Nunca lo programes, publiques ni envíes.
 8. Devuelve: nombre del email, ID, enlace `https://app.hubspot.com/email/146309055/edit/<id>/edit` y cualquier incidencia.
