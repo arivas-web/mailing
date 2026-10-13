@@ -30,6 +30,8 @@ Entrada: el texto del correo que el usuario ha pegado.
    - Si el texto no dice si afecta a Visual Trans Suite / vForwarding, no lo afirmes.
    - Tono profesional y cercano, en español, frases cortas.
    - Estructura base (si `ejemplos.txt` no dice otra cosa): titular · "Hola," · frase de entrada · una o varias "Novedad N. Título" con su párrafo y "Para más información haz clic en el siguiente enlace:" + botón "Más información" · "Un saludo, Equipo de Visual Trans".
+   - Si solo hay **una** novedad, no pongas "Novedad 1. Título": el texto va directamente tras la frase de entrada. La numeración "Novedad N" solo se usa cuando hay dos o más.
+   - **Nunca** pongas un apartado "Nuestra recomendación" (ni etiqueta similar). Si hay una acción para el cliente, va como párrafo normal dentro del texto.
 3. Devuelve el borrador en **texto plano**, listo para leer en el chat:
 
 ```
