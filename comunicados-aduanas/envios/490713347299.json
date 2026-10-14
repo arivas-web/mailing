@@ -1,0 +1,419 @@
+{
+  "subject": "Nuevas marcas fiscales para el tabaco desde el 1 de enero de 2027",
+  "from": {
+    "fromName": "Equipo Visual Trans",
+    "replyTo": "soporte@visualtrans.com"
+  },
+  "to": {
+    "contactIlsLists": {
+      "include": [
+        "195",
+        "100",
+        "250",
+        "718"
+      ],
+      "exclude": [
+        "259",
+        "780"
+      ]
+    },
+    "contactLists": {
+      "include": [
+        "106",
+        "36",
+        "130",
+        "433"
+      ],
+      "exclude": [
+        "137",
+        "468"
+      ]
+    }
+  },
+  "previewText": "La Orden HAC/1080/2026 cambia las marcas fiscales de las labores del tabaco. Te contamos qué cambia y los plazos.",
+  "content": {
+    "widgets": {
+      "module-0-0-0": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": false,
+          "hs_wrapper_css": {},
+          "img": {
+            "alt": "visual-trans-mail-logo@2x",
+            "height": 30,
+            "src": "https://146309055.fs1.hubspotusercontent-eu1.net/hubfs/146309055/visual-trans-mail-logo@2x.png",
+            "width": 200
+          },
+          "lineNumber": 53,
+          "module_id": 1367093,
+          "parent_widget_container": null,
+          "path": "@hubspot/image_email",
+          "schema_version": 2,
+          "startPosition": -334
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-0-0-0",
+        "label": null,
+        "module_id": 1367093,
+        "name": "module-0-0-0",
+        "order": 1,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-1-0-1": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "8px",
+            "padding-left": "40px",
+            "padding-right": "40px",
+            "padding-top": "8px"
+          },
+          "html": "<h1 style=\"line-height: 125%; font-weight: normal;\">Nuevas marcas fiscales para las labores del tabaco</h1>",
+          "lineNumber": 92,
+          "module_id": 1155639,
+          "parent_widget_container": null,
+          "path": "@hubspot/rich_text",
+          "schema_version": 2,
+          "startPosition": -336
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-1-0-1",
+        "label": null,
+        "module_id": 1155639,
+        "name": "module-1-0-1",
+        "order": 3,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-1-0-2": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "16px",
+            "padding-left": "40px",
+            "padding-right": "40px",
+            "padding-top": "16px"
+          },
+          "html": "<p>Hola,</p>\n<p>&nbsp;</p>\n<p>La Agencia Tributaria publicó el 13 de octubre una novedad en Impuestos Especiales que afecta a los operadores del sector del tabaco.</p>\n<p>&nbsp;</p>\n<p>La Orden HAC/1080/2026, de 7 de octubre, cambia la regulación de las marcas fiscales de las labores del tabaco. Los nuevos modelos traen mejoras técnicas y de seguridad. Serán obligatorios a partir del 1 de enero de 2027.</p>\n<p>&nbsp;</p>\n<p>Las marcas fiscales que ya están puestas en los productos siguen siendo válidas mientras esos productos se vendan.</p>\n<p>&nbsp;</p>\n<p>Además, hay un periodo transitorio de tres meses para poner las marcas que se hayan pedido y entregado antes del 1 de enero de 2027.</p>\n<p>&nbsp;</p>\n<p>Te recomendamos revisar con tiempo cómo gestionas la compra, el control de existencias y la documentación de las marcas fiscales.</p>\n<p>&nbsp;</p>\n<p>Puedes consultar todas las novedades en el <a href=\"https://sede.agenciatributaria.gob.es/Sede/impuestos-especiales-medioambientales/novedades.html\" target=\"_blank\" rel=\"noopener\">apartado de novedades de Impuestos Especiales y Medioambientales</a> de la sede de la AEAT.</p>\n<p>&nbsp;</p>\n<p>Para más información haz clic en el siguiente enlace:</p>",
+          "lineNumber": 100,
+          "module_id": 1155639,
+          "parent_widget_container": null,
+          "path": "@hubspot/rich_text",
+          "schema_version": 2,
+          "startPosition": -339
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-1-0-2",
+        "label": null,
+        "module_id": 1155639,
+        "name": "module-1-0-2",
+        "order": 5,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-1-0-3": {
+        "body": {
+          "background_color": "#f15f27",
+          "border_enabled": false,
+          "corner_radius": 4,
+          "css_class": "dnd-module",
+          "destination": "https://sede.agenciatributaria.gob.es/Sede/impuestos-especiales-medioambientales/novedades-impuestos-especiales-medioambientales/2026/octubre/13/novedades-impuesto-sobre-labores-tabaco.html",
+          "font": "Arial, sans-serif",
+          "font_color": "#ffffff",
+          "font_size": 16,
+          "font_style": {
+            "color": "#ffffff",
+            "font": "Arial, sans-serif",
+            "size": {
+              "units": "px",
+              "value": 15
+            },
+            "styles": {
+              "bold": true,
+              "italic": false,
+              "underline": false
+            }
+          },
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "24px",
+            "padding-left": "20px",
+            "padding-right": "20px",
+            "padding-top": "24px"
+          },
+          "lineNumber": 116,
+          "module_id": 1976948,
+          "parent_widget_container": null,
+          "path": "@hubspot/button_email",
+          "schema_version": 2,
+          "startPosition": -465,
+          "style": {
+            "alignment": "center",
+            "background_color": {
+              "color": "#f15f27"
+            },
+            "border_color": {
+              "color": "#2d3e50"
+            },
+            "border_enabled": false,
+            "border_width": 1,
+            "corner_radius": 4,
+            "font_style": {
+              "color": "#ffffff",
+              "font": "Arial, sans-serif",
+              "size": {
+                "units": "px",
+                "value": 15
+              },
+              "styles": {
+                "bold": true,
+                "italic": false,
+                "underline": false
+              }
+            },
+            "inner_horizontal_padding": 18,
+            "inner_vertical_padding": 12,
+            "make_full_width": false
+          },
+          "text": "Más información"
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-1-0-3",
+        "label": null,
+        "module_id": 1976948,
+        "name": "module-1-0-3",
+        "order": 6,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-5-0-0": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "16px",
+            "padding-left": "40px",
+            "padding-right": "40px",
+            "padding-top": "16px"
+          },
+          "html": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Equipo de Visual Trans</span></p>",
+          "lineNumber": 252,
+          "module_id": 1155639,
+          "parent_widget_container": null,
+          "path": "@hubspot/rich_text",
+          "schema_version": 2,
+          "startPosition": -443
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-5-0-0",
+        "label": null,
+        "module_id": 1155639,
+        "name": "module-5-0-0",
+        "order": 8,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {
+              "hidden": false
+            },
+            "mobile": {
+              "hidden": false
+            }
+          }
+        },
+        "type": "module"
+      },
+      "module-6-0-0": {
+        "body": {
+          "alignment": "left",
+          "color_scheme": "color",
+          "css_class": "dnd-module",
+          "display": "icon",
+          "font_style": {
+            "color": "#f15f27",
+            "font": "Helvetica,Arial,sans-serif",
+            "size": {
+              "units": "px",
+              "value": 14
+            },
+            "styles": {
+              "bold": false,
+              "italic": false,
+              "underline": true
+            }
+          },
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "10px",
+            "padding-left": "35px",
+            "padding-right": "20px",
+            "padding-top": "10px"
+          },
+          "icon_shape": "square",
+          "lineNumber": 285,
+          "module_id": 2763545,
+          "parent_widget_container": null,
+          "path": "@hubspot/follow_me_email",
+          "schema_version": 2,
+          "social": [
+            {
+              "network": "linkedin",
+              "url": "https://www.linkedin.com/company/visual-trans"
+            }
+          ],
+          "startPosition": -422
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-6-0-0",
+        "label": null,
+        "module_id": 2763545,
+        "name": "module-6-0-0",
+        "order": 9,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-7-0-0": {
+        "body": {
+          "align": "left",
+          "css_class": "dnd-module",
+          "font": {
+            "color": "#808080",
+            "font": "Arial, sans-serif",
+            "size": {
+              "units": "px",
+              "value": 12
+            }
+          },
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "10px",
+            "padding-left": "20px",
+            "padding-right": "20px",
+            "padding-top": "10px"
+          },
+          "lineNumber": 316,
+          "link_font": {
+            "color": "#f15f27",
+            "font": "Helvetica,Arial,sans-serif",
+            "size": {
+              "units": "px",
+              "value": 12
+            },
+            "styles": {
+              "bold": false,
+              "italic": false,
+              "underline": true
+            }
+          },
+          "module_id": 2869621,
+          "parent_widget_container": null,
+          "path": "@hubspot/email_footer",
+          "schema_version": 2,
+          "startPosition": -460,
+          "style": {
+            "align": "left",
+            "font": {
+              "color": "#808080",
+              "font": "Arial, sans-serif",
+              "size": {
+                "units": "px",
+                "value": 12
+              },
+              "styles": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+              }
+            },
+            "link_font": {
+              "color": "#f15f27",
+              "font": "Helvetica,Arial,sans-serif",
+              "size": {
+                "units": "px",
+                "value": 12
+              },
+              "styles": {
+                "bold": false,
+                "italic": false,
+                "underline": true
+              }
+            }
+          },
+          "unsubscribe_link_type": "unsubscribe"
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-7-0-0",
+        "label": null,
+        "module_id": 2869621,
+        "name": "module-7-0-0",
+        "order": 10,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {
+              "hidden": false
+            },
+            "mobile": {
+              "hidden": false
+            }
+          }
+        },
+        "type": "module"
+      },
+      "preview_text": {
+        "body": {
+          "value": "La Orden HAC/1080/2026 cambia las marcas fiscales de las labores del tabaco. Te contamos qué cambia y los plazos."
+        },
+        "child_css": {},
+        "css": {},
+        "id": "preview_text",
+        "label": "Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>",
+        "name": "preview_text",
+        "order": 0,
+        "smart_type": null,
+        "styles": {},
+        "type": "text"
+      }
+    }
+  }
+}
