@@ -1,0 +1,57 @@
+{
+  "titular": "Novedades de la AEAT: medidas fiscales sobre la energía eléctrica, el gas y los carburantes",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola,"
+    },
+    {
+      "tipo": "p",
+      "html": "La Agencia Tributaria ha publicado tres novedades derivadas del <strong>Real Decreto-ley 7/2026</strong>, con medidas fiscales sobre la energía."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Novedad 1. Tipo reducido del 10 % de IVA en energía"
+    },
+    {
+      "tipo": "p",
+      "html": "Se aplica un <strong>tipo reducido del 10 % de IVA</strong> a determinadas entregas, importaciones y adquisiciones intracomunitarias de <strong>energía eléctrica, gas, carburantes, biomasa y leña</strong>."
+    },
+    {
+      "tipo": "p",
+      "html": "Es válido <strong>del 22/03/2026 al 30/06/2026</strong>. El mes de junio queda supeditado a la evolución del IPC energético."
+    },
+    {
+      "tipo": "enlace",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/marzo/24/aplicacion-10-iva-determinadas-entregas-intracomunitarias.html"
+    },
+    {
+      "tipo": "h2",
+      "texto": "Novedad 2. Impuesto Especial sobre la Electricidad (Modelo 560)"
+    },
+    {
+      "tipo": "p",
+      "html": "El tipo impositivo se rebaja <strong>del 5,11269632 % al 0,5 %</strong> para los consumos devengados <strong>a partir del 22/03/2026</strong>."
+    },
+    {
+      "tipo": "p",
+      "html": "La AEAT habilita la <strong>presentación dual del modelo</strong> para separar periodos y publica una nota informativa de ayuda."
+    },
+    {
+      "tipo": "enlace",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/marzo/24/impuesto-especial-sobre-electricidad-modelo-2026.html"
+    },
+    {
+      "tipo": "h2",
+      "texto": "Novedad 3. Impuesto sobre el Valor de la Producción de Energía Eléctrica (Modelo 583)"
+    },
+    {
+      "tipo": "p",
+      "html": "Para el ejercicio 2026, la base imponible se reduce un <strong>10 % para la electricidad del primer trimestre</strong> y un <strong>100 % para la del segundo trimestre</strong>, según el RDL 7/2026."
+    },
+    {
+      "tipo": "enlace",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/marzo/24/impuesto-sobre-valor-produccion-energia-583.html"
+    }
+  ]
+}
