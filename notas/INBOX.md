@@ -1,4 +1,4 @@
 # Buzón de notas
 
 Información útil para comunicados/correos (fecha, quién la dijo).
-- 2026-10-20 (Adrián): opción 1 elegida: en Make, el módulo de respuesta por email debe añadir arivas@visualtrans.com en copia en todas las respuestas de Marc. Pendiente de configurar en Make (no se puede desde el repo).
+- 2026-10-20 (Adrián): respuestas de Marc por correo — si escribe Adrián (arivas@visualtrans.com / arivas@visualms.com) se responde solo a él; si escribe otra persona, se le responde con arivas@visualtrans.com en Cc. Configurado en Make: «Gmail → Claude» guarda el remitente del hilo en el data store y «Claude → Gmail (Marc)» decide con un router.
