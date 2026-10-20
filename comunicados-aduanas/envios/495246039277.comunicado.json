@@ -1,0 +1,14 @@
+{
+  "titular": "Nueva versión de la guía de la declaración de escaso valor (H7)",
+  "bloques": [
+    {"tipo": "p", "html": "Hola,"},
+    {"tipo": "p", "html": "La AEAT ha publicado la <strong>nueva versión (3.23) de la información complementaria de la guía de la declaración de escaso valor (H7)</strong>, con las novedades que se han ido probando desde el 1 de octubre:"},
+    {"tipo": "ul", "items": [
+      "<strong>La tasa de la Unión (F00) pasa a formar parte de la base imponible del IVA (B00).</strong>",
+      "<strong>Se corrige un error de la versión 3.22</strong> que no permitía declarar la referencia de elemento de datos de referencias adicionales cuando es obligatoria."
+    ]},
+    {"tipo": "p", "html": "Ambas novedades <strong>llevan tiempo implementadas en el sistema de pruebas</strong> de la AEAT."},
+    {"tipo": "p", "html": "Para más información haz clic en el siguiente botón:"}
+  ],
+  "boton": {"texto": "Más información", "url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Aduanas/adu_electronica/info/guias_tecnicas/Guia_Bajo_Valor_H7_V3.23.pdf"}
+}
