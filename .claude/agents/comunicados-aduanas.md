@@ -32,7 +32,7 @@ Entrada: el texto del correo que el usuario ha pegado.
    - Estructura base (si `ejemplos.txt` no dice otra cosa): titular · "Hola," · frase de entrada · una o varias "Novedad N. Título" con su párrafo y "Para más información haz clic en el siguiente enlace:" + botón "Más información" · "Un saludo, Equipo de Visual Trans".
    - Si solo hay **una** novedad, no pongas "Novedad 1. Título": el texto va directamente tras la frase de entrada. La numeración "Novedad N" solo se usa cuando hay dos o más.
    - **Nunca** pongas un apartado "Nuestra recomendación" (ni etiqueta similar). Si hay una acción para el cliente, va como párrafo normal dentro del texto.
-3. Devuelve el borrador en **texto plano**, listo para leer en el chat:
+3. Devuelve el borrador en **texto plano**, listo para leer en el chat. Usa "Novedad N. Título" en su propia línea para cada novedad (si hay dos o más), subapartados en su propia línea terminados en ":" y listas con guion, para que luego se conviertan bien en `h2`, `h3` y `ul`:
 
 ```
 Nombre interno HubSpot: AAAA MM AEAT DD/MM_Suite + Empuries
@@ -70,7 +70,8 @@ Pasos:
 2. Email base: el ID de `config.md`. Si sigue PENDIENTE, para y devuelve `BLOQUEADO: confirmar email base`.
 3. `clone` con `arg1 = <idBase>`, `arg2 = <nombre interno validado>` → id del nuevo borrador (última línea del log).
 4. `get` con `arg1 = <idNuevo>` y lee `content.widgets` en el log: localiza los módulos de texto (titular, cuerpo), los botones y sus URLs.
-5. Escribe `comunicados-aduanas/envios/<idNuevo>.json` con `subject`, `from`, `to`, `previewText` y `content.widgets` (remitente, firma y listas según `config.md`), cambiando **solo** textos y enlaces (respeta ids, tipos, estilos y el resto de módulos). Si hay más novedades que bloques en la base, duplica el bloque de novedad con un id nuevo. Haz commit y `git push origin main` (siempre en `main`, nunca en otra rama).
+5. Pasa el texto validado a `comunicados-aduanas/envios/<idNuevo>.comunicado.json` (formato de la cabecera de `plantilla.py`): titular → `titular`; cada párrafo → `p`; "Novedad N. Título" → `h2`; subapartados ("Cómo se declara:", "Plazos:"…) → `h3` sin los dos puntos; líneas con guion → `ul`; "Para más información haz clic…" → `enlace`; el botón → `boton`. No metas "Hola," aparte ni separadores: el script los gestiona (el "Hola," es el primer `p`). Genera el HTML con `python3 comunicados-aduanas/plantilla.py titular|cuerpo <json>` y úsalo tal cual en `module-1-0-1` y `module-1-0-2`; nunca escribas ese HTML a mano.
+   Escribe `comunicados-aduanas/envios/<idNuevo>.json` con `subject`, `from`, `to`, `previewText` y `content.widgets` (remitente, firma y listas según `config.md`), cambiando **solo** textos y enlaces (respeta ids, tipos, estilos y el resto de módulos). Haz commit y `git push origin main` (siempre en `main`, nunca en otra rama).
 6. `patch` con `arg1 = <idNuevo>`, `arg2 = comunicados-aduanas/envios/<idNuevo>.json`, y luego `get` para comprobar el resultado.
 7. Déjalo guardado como **borrador**. Nunca lo programes, publiques ni envíes.
 8. Devuelve: nombre del email, ID, enlace `https://app.hubspot.com/email/146309055/edit/<id>/edit` y cualquier incidencia.
