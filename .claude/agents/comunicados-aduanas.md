@@ -31,6 +31,8 @@ Entrada: el texto del correo que el usuario ha pegado.
    - Tono profesional y cercano, en español, frases cortas.
    - Estructura base (si `ejemplos.txt` no dice otra cosa): titular · "Hola," · frase de entrada · una o varias "Novedad N. Título" con su párrafo y "Para más información haz clic en el siguiente enlace:" + botón "Más información" · "Un saludo, Equipo de Visual Trans".
    - Si solo hay **una** novedad, no pongas "Novedad 1. Título": el texto va directamente tras la frase de entrada. La numeración "Novedad N" solo se usa cuando hay dos o más.
+   - Usa **negritas** (`<strong>`) en las ideas clave de los párrafos (qué cambia, a quién afecta, fechas y plazos).
+   - El enlace va **solo como botón**: no pongas además un hipervínculo con el mismo destino en el texto (la frase previa es "Para más información haz clic en el siguiente botón:").
    - **Nunca** pongas un apartado "Nuestra recomendación" (ni etiqueta similar). Si hay una acción para el cliente, va como párrafo normal dentro del texto.
 3. Devuelve el borrador en **texto plano**, listo para leer en el chat. Usa "Novedad N. Título" en su propia línea para cada novedad (si hay dos o más), subapartados en su propia línea terminados en ":" y listas con guion, para que luego se conviertan bien en `h2`, `h3` y `ul`:
 
