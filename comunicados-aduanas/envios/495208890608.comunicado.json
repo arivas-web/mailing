@@ -1,0 +1,13 @@
+{
+  "titular": "La AEAT moderniza sus equipos de inspección con financiación europea",
+  "bloques": [
+    {"tipo": "p", "html": "Hola,"},
+    {"tipo": "p", "html": "La AEAT ha publicado una novedad sobre la <strong>financiación europea de equipos de inspección no intrusiva y laboratorios</strong>, en el marco del programa 2023-2024 del Instrumento de Equipos de Control Aduanero (CCEI) de la Comisión Europea."},
+    {"tipo": "p", "html": "El Departamento de Aduanas e Impuestos Especiales (DAIIEE) continúa modernizando los sistemas de control aduanero con nuevas capacidades tecnológicas. Lo hace en línea con los objetivos de la UE de <strong>reforzar la seguridad en las fronteras exteriores</strong> y facilitar el comercio legítimo."},
+    {"tipo": "p", "html": "Las actuaciones impulsadas por la AEAT con el CCEI buscan reforzar la eficiencia, la movilidad y la capacidad operativa de los controles. Con este fin, se refuerza también la <strong>red de laboratorios</strong>, que complementa el despliegue de la inspección no intrusiva. El enfoque es integral: detección, análisis y verificación. Con él se mejora la calidad de los controles, la gestión del riesgo y la respuesta ante nuevos tipos de fraude y tráfico ilícito."},
+    {"tipo": "p", "html": "Destaca la incorporación de un <strong>nuevo equipo manual de retrodispersión</strong> en la Dependencia Regional de Baleares. Permite verificar mercancías y vehículos sin procedimientos invasivos e inspeccionar compartimentos ocultos de forma más rápida y precisa. Así se reducen los tiempos de intervención."},
+    {"tipo": "p", "html": "La AEAT no cita fechas, plazos ni obligaciones nuevas para los operadores."},
+    {"tipo": "p", "html": "Para más información haz clic en el siguiente botón:"}
+  ],
+  "boton": {"texto": "Más información", "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/marzo/18/financiacion-europea-equipos-inspeccion-no-ccei.html"}
+}
