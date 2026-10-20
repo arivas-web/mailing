@@ -1,14 +1,44 @@
 {
   "titular": "Factura electrónica: ya tenemos fechas confirmadas",
   "bloques": [
-    {"tipo": "p", "html": "Estimados clientes,"},
-    {"tipo": "p", "html": "Se ha publicado la Orden Ministerial HAC/1028/2026, que regula la solución pública de facturación electrónica prevista en la Ley Crea y Crece y marca el inicio de la cuenta atrás para la implantación obligatoria de la factura electrónica B2B en España."},
-    {"tipo": "p", "html": "Esta orden obliga a todas las empresas, autónomos y profesionales en España a dejar de usar facturas en papel o simples PDF cuando le vendan a otra empresa o autónomo, sustituyéndolas por facturas electrónicas en un formato digital estandarizado que deberá enviarse o comunicarse a través de una plataforma pública de la Agencia Tributaria (o de sistemas privados conectados a ella), con el objetivo de controlar los plazos de cobro, reducir la morosidad y rastrear en tiempo real si cada factura es aceptada, rechazada o pagada"},
-    {"tipo": "p", "html": "Con este paso, las empresas ya cuentan con un marco normativo definitivo y un calendario concreto para adaptar sus procesos y sistemas a la nueva obligación."},
-    {"tipo": "h3", "texto": "Fechas clave"},
-    {"tipo": "ul", "items": ["6 de octubre de 2027: empresas con una facturación superior a 8 millones de euros.", "6 de octubre de 2028: empresas con una facturación igual o inferior a 8 millones de euros."]},
-    {"tipo": "p", "html": "En ambos casos, la obligación incluye tanto la emisión como la recepción de facturas electrónicas."},
-    {"tipo": "p", "html": "Desde nuestro equipo trabajaremos para acompañar a todas las empresas en este proceso, de modo que cada una pueda llegar en tiempo y forma y afrontar la transición de la mejor manera posible."},
-    {"tipo": "p", "html": "Seguiremos informando de cualquier novedad. Si tienes cualquier duda, estamos a tu disposición."}
+    {
+      "tipo": "p",
+      "html": "Estimados clientes,"
+    },
+    {
+      "tipo": "p",
+      "html": "Se ha publicado la <strong>Orden Ministerial HAC/1028/2026</strong>, que regula la solución pública de facturación electrónica prevista en la Ley Crea y Crece y marca el inicio de la cuenta atrás para la implantación obligatoria de la factura electrónica B2B en España."
+    },
+    {
+      "tipo": "p",
+      "html": "Esta orden obliga a todas las empresas, autónomos y profesionales en España a dejar de usar facturas en papel o simples PDF cuando le vendan a otra empresa o autónomo, sustituyéndolas por facturas electrónicas en un formato digital estandarizado que deberá enviarse o comunicarse a través de una plataforma pública de la Agencia Tributaria (o de sistemas privados conectados a ella), con el objetivo de controlar los plazos de cobro, reducir la morosidad y rastrear en tiempo real si cada factura es aceptada, rechazada o pagada"
+    },
+    {
+      "tipo": "p",
+      "html": "Con este paso, las empresas ya cuentan con un marco normativo definitivo y un calendario concreto para adaptar sus procesos y sistemas a la nueva obligación."
+    },
+    {
+      "tipo": "h3",
+      "texto": "Fechas clave"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>6 de octubre de 2027</strong>: empresas con una facturación superior a 8 millones de euros.",
+        "<strong>6 de octubre de 2028</strong>: empresas con una facturación igual o inferior a 8 millones de euros."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "En ambos casos, la obligación incluye tanto la <strong>emisión como la recepción</strong> de facturas electrónicas."
+    },
+    {
+      "tipo": "p",
+      "html": "Desde nuestro equipo trabajaremos para acompañar a todas las empresas en este proceso, de modo que cada una pueda llegar en tiempo y forma y afrontar la transición de la mejor manera posible."
+    },
+    {
+      "tipo": "p",
+      "html": "Seguiremos informando de cualquier novedad. Si tienes cualquier duda, estamos a tu disposición."
+    }
   ]
 }
