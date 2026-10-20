@@ -1,0 +1,25 @@
+{
+  "titular": "Nueva versión de la guía técnica G4 para la declaración de depósito temporal",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola,"
+    },
+    {
+      "tipo": "p",
+      "html": "La AEAT ha publicado una <strong>nueva versión de la guía técnica de G4</strong>, el mensaje para la <strong>declaración de depósito temporal de mercancías</strong>."
+    },
+    {
+      "tipo": "p",
+      "html": "Las principales novedades son:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Modificación:</strong> aclaraciones sobre la operativa de modificación.",
+        "<strong>Desconsolidación:</strong> deja de ser obligatorio declarar el <strong>medio de transporte</strong> y el <strong>número de conocimiento del máster</strong> en los mensajes de desconsolidación, si se declara el <strong>MRN del máster</strong> a desconsolidar en el documento justificativo <strong>1841</strong>.",
+        "<strong>Partidas instrumentales:</strong> aclaración sobre su uso."
+      ]
+    }
+  ]
+}
