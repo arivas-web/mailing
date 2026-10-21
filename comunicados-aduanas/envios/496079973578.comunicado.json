@@ -1,0 +1,11 @@
+{
+  "titular": "Hidrocarburos: fiscalidad de noviembre de 2026",
+  "bloques": [
+    {"tipo": "p", "html": "Hola,"},
+    {"tipo": "p", "html": "La AEAT ha publicado una actualización sobre la aplicación de las medidas del <strong>Real Decreto-ley 25/2026, de 29 de septiembre</strong>, en el Impuesto sobre Hidrocarburos."},
+    {"tipo": "p", "html": "Para <strong>noviembre de 2026</strong>, la AEAT informa de una <strong>rebaja de 20 céntimos en el tipo impositivo</strong> aplicable al <strong>gasóleo de uso general</strong> y a las <strong>gasolinas sin plomo</strong>. Se trata de una actualización sobre su aplicación, no de una norma aprobada ahora."},
+    {"tipo": "p", "html": "<strong>Atención a las devoluciones:</strong> durante noviembre de 2026, el tipo de devolución del Impuesto sobre Hidrocarburos será de <strong>cero euros</strong>, tanto para el gasóleo de uso profesional como para el empleado en agricultura y ganadería."},
+    {"tipo": "p", "html": "Para más información haz clic en el siguiente botón:"}
+  ],
+  "boton": {"texto": "Más información", "url": "https://sede.agenciatributaria.gob.es/Sede/impuestos-especiales-medioambientales/novedades-impuestos-especiales-medioambientales/2026/octubre/20/medidas-tributarias-impuesto-sobre-hidrocarburos-medio_.html"}
+}
