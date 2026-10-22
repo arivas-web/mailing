@@ -1,0 +1,11 @@
+{
+  "titular": "La Sede de la AEAT tendrá una parada técnica el domingo 25 de octubre",
+  "bloques": [
+    {"tipo": "p", "html": "Hola,"},
+    {"tipo": "p", "html": "La AEAT ha anunciado una <strong>parada planificada de su Sede Electrónica</strong> por operaciones de mantenimiento, coincidiendo con el cambio de hora."},
+    {"tipo": "p", "html": "El servicio estará interrumpido el <strong>domingo 25 de octubre de 2026</strong>, <strong>desde las 02:30 (horario de verano) hasta las 03:30 (horario de invierno)</strong>."},
+    {"tipo": "p", "html": "Si tienes que hacer algún trámite en la Sede ese día, te recomendamos <strong>hacerlo fuera de esa franja</strong>."},
+    {"tipo": "p", "html": "Para más información haz clic en el siguiente botón:"}
+  ],
+  "boton": {"texto": "Más información", "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/octubre/22/parada-planificada-cambio-hora.html"}
+}
