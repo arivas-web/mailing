@@ -29,6 +29,7 @@ Valores que usa el subagente `comunicados-aduanas`. Edita aquí, no en el prompt
   - `h3` (Arial 17px negrita #162846): subapartados dentro de una novedad ("Cómo se declara", "Plazos", "A quién afecta"…).
   - `p` (16px, interlineado 175%): párrafos; `ul`/`ol` para listas; "Para más información…" con enlace naranja #f15f27.
   - Entre bloque y bloque, exactamente un `<p>&nbsp;</p>`: todas las separaciones miden lo mismo. Nunca dos seguidos, ni al principio ni al final del cuerpo.
+- **Regla de Adrián (22/10/2026): sin URL no hay botón.** Si no te pasan la URL del botón «Más información», el comunicado se monta sin botón (ni enlace inventado); nunca se pone un botón sin URL real.
 - Solo hay un botón. Si el comunicado tiene varias novedades, cada una va en el cuerpo con su enlace "Más información" como `<a href>` en línea; el botón se usa para el enlace principal.
 - Al hacer PATCH se envía el objeto `content.widgets` completo (copiado del `get` del clon) con solo esos campos modificados.
 - Remitente, firma y destinatarios (iguales que los comunicados AEAT anteriores, p. ej. 478691292350). El clon hereda los de Emma del email base, así que el PATCH **siempre** los sobrescribe con estos:
