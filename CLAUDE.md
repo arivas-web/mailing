@@ -9,7 +9,8 @@ Agente de mailing. Delega en subagentes especializados de `.claude/agents/`.
 - No se llama nunca a endpoints de publish/send/schedule, ni se cambian `state`, `publishDate`, `sendOnPublish` o similares.
 - No se modifican emails ya enviados (`state` distinto de `DRAFT`): solo se trabaja sobre el clon recién creado.
 - Si algo en el flujo exigiera enviar o publicar, **para** y avisa al usuario.
-- **Única excepción: la prueba por Gmail** (paso 4 del flujo). Se renderiza el borrador con la operación de solo lectura `PREVIEW_CONTENT` de HubSpot y se envía ese HTML desde Gmail **solo a `arivas@visualtrans.com`** (indicación de Adrián, 20/10/2026: la prueba no se envía a nadie más, ni siquiera a quien pidió el comunicado). Nunca a otras direcciones, nunca a clientes ni listas, y nunca usando una función de envío de HubSpot.
+- **Única excepción: la prueba por Gmail** (paso 4 del flujo). Se renderiza el borrador con la operación de solo lectura `PREVIEW_CONTENT` de HubSpot y se envía ese HTML desde Gmail **solo a `arivas@visualtrans.com`** o a quien él indique (indicación de Adrián, 20/10/2026: la prueba no se envía a nadie más, ni siquiera a quien pidió el comunicado). Nunca a otras direcciones, nunca a clientes ni listas, y nunca usando una función de envío de HubSpot.
+- Si me reenvía un hilo donde se pide un comunicado, contesto en el mismo hilo manteniendo a los contactos del mismo. Cuando te den ok, seguimos como de costumbre.
 
 ## Subagentes
 
