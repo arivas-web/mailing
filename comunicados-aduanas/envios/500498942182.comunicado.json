@@ -1,0 +1,9 @@
+{
+  "titular": "Identificadores de producto en la declaración H7: ya se pueden incluir",
+  "bloques": [
+    {"tipo": "p", "html": "Hola,"},
+    {"tipo": "p", "html": "Ante las solicitudes recibidas, la AEAT ha adelantado una mejora en la declaración de escaso valor H7. <strong>Desde hoy, martes 27 de octubre, ya se pueden incluir los identificadores de producto</strong>, tanto <strong>a nivel de cabecera como de partidas</strong>, en la declaración H7."},
+    {"tipo": "p", "html": "Con ello se facilita la adaptación a la <strong>obligación de declarar estos identificadores, que entra en vigor el 1 de noviembre</strong>."},
+    {"tipo": "p", "html": "Ojo: <strong>las validaciones de obligatoriedad asociadas a estos identificadores no se activan hoy</strong>. Entrarán en vigor el <strong>1 de noviembre</strong>, junto con la obligación. Hasta entonces, la inclusión es posible pero no se exige."}
+  ]
+}
