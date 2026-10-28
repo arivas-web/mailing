@@ -1,0 +1,338 @@
+{
+  "name": "2026-10 novedades de DeiWorld 6/20",
+  "subject": "{{ personalization_token('contact.firstname', 'cliente') }}, estamos en directo (entra ahora)",
+  "previewText": "Ya estamos dentro: entra en la sala del webinar de novedades de DeiWorld.",
+  "from": {
+    "fromName": "Pablo Soriano",
+    "replyTo": "pablosoriano@visualtrans.com"
+  },
+  "to": {
+    "contactIlsLists": {
+      "include": [
+        "195",
+        "100",
+        "250",
+        "718"
+      ],
+      "exclude": [
+        "259",
+        "780"
+      ]
+    },
+    "contactLists": {
+      "include": [
+        "106",
+        "36",
+        "130",
+        "433"
+      ],
+      "exclude": [
+        "137",
+        "468"
+      ]
+    }
+  },
+  "content": {
+    "widgets": {
+      "module-0-0-0": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": false,
+          "hs_wrapper_css": {},
+          "img": {
+            "alt": "visual-trans-mail-logo@2x",
+            "height": 30,
+            "src": "https://146309055.fs1.hubspotusercontent-eu1.net/hubfs/146309055/visual-trans-mail-logo@2x.png",
+            "width": 200
+          },
+          "lineNumber": 53,
+          "module_id": 1367093,
+          "parent_widget_container": null,
+          "path": "@hubspot/image_email",
+          "schema_version": 2,
+          "startPosition": -334
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-0-0-0",
+        "label": null,
+        "module_id": 1367093,
+        "name": "module-0-0-0",
+        "order": 1,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-1-0-1": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "8px",
+            "padding-left": "40px",
+            "padding-right": "40px",
+            "padding-top": "8px"
+          },
+          "html": "<h1 style=\"line-height: 125%; font-weight: normal;\">Estamos en directo (entra ahora)</h1>",
+          "lineNumber": 92,
+          "module_id": 1155639,
+          "parent_widget_container": null,
+          "path": "@hubspot/rich_text",
+          "schema_version": 2,
+          "startPosition": -336
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-1-0-1",
+        "label": null,
+        "module_id": 1155639,
+        "name": "module-1-0-1",
+        "order": 3,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-1-0-2": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "16px",
+            "padding-left": "40px",
+            "padding-right": "40px",
+            "padding-top": "16px"
+          },
+          "html": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Ya estamos dentro. El equipo de Visual Trans está abriendo la sala del primer webinar de novedades de DeiWorld.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">En unos minutos vamos a enseñar:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li>Cómo IA DUA NEXO prepara borradores de despacho a partir de la documentación.</li>\n<li>Las Operaciones con Inteligencia Artificial.</li>\n<li>La Agenda Operativa Inteligente y su análisis con IA.</li>\n<li>La digitalización de facturas de coste soportado.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\"><strong>No dejes que te lo cuenten.</strong> Entra en la sala, haz tus preguntas y descubre cómo hacer que tu sistema trabaje para ti.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Nos vemos dentro.</p>",
+          "lineNumber": 100,
+          "module_id": 1155639,
+          "parent_widget_container": null,
+          "path": "@hubspot/rich_text",
+          "schema_version": 2,
+          "startPosition": -339
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-1-0-2",
+        "label": null,
+        "module_id": 1155639,
+        "name": "module-1-0-2",
+        "order": 5,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-5-0-0": {
+        "body": {
+          "css_class": "dnd-module",
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "16px",
+            "padding-left": "40px",
+            "padding-right": "40px",
+            "padding-top": "16px"
+          },
+          "html": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+          "lineNumber": 252,
+          "module_id": 1155639,
+          "parent_widget_container": null,
+          "path": "@hubspot/rich_text",
+          "schema_version": 2,
+          "startPosition": -443
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-5-0-0",
+        "label": null,
+        "module_id": 1155639,
+        "name": "module-5-0-0",
+        "order": 8,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {
+              "hidden": false
+            },
+            "mobile": {
+              "hidden": false
+            }
+          }
+        },
+        "type": "module"
+      },
+      "module-6-0-0": {
+        "body": {
+          "alignment": "left",
+          "color_scheme": "color",
+          "css_class": "dnd-module",
+          "display": "icon",
+          "font_style": {
+            "color": "#f15f27",
+            "font": "Helvetica,Arial,sans-serif",
+            "size": {
+              "units": "px",
+              "value": 14
+            },
+            "styles": {
+              "bold": false,
+              "italic": false,
+              "underline": true
+            }
+          },
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "10px",
+            "padding-left": "35px",
+            "padding-right": "20px",
+            "padding-top": "10px"
+          },
+          "icon_shape": "square",
+          "lineNumber": 285,
+          "module_id": 2763545,
+          "parent_widget_container": null,
+          "path": "@hubspot/follow_me_email",
+          "schema_version": 2,
+          "social": [
+            {
+              "network": "linkedin",
+              "url": "https://www.linkedin.com/company/visual-trans"
+            }
+          ],
+          "startPosition": -422
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-6-0-0",
+        "label": null,
+        "module_id": 2763545,
+        "name": "module-6-0-0",
+        "order": 9,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {},
+            "mobile": {}
+          }
+        },
+        "type": "module"
+      },
+      "module-7-0-0": {
+        "body": {
+          "align": "left",
+          "css_class": "dnd-module",
+          "font": {
+            "color": "#808080",
+            "font": "Arial, sans-serif",
+            "size": {
+              "units": "px",
+              "value": 12
+            }
+          },
+          "hs_enable_module_padding": true,
+          "hs_wrapper_css": {
+            "padding-bottom": "10px",
+            "padding-left": "20px",
+            "padding-right": "20px",
+            "padding-top": "10px"
+          },
+          "lineNumber": 316,
+          "link_font": {
+            "color": "#f15f27",
+            "font": "Helvetica,Arial,sans-serif",
+            "size": {
+              "units": "px",
+              "value": 12
+            },
+            "styles": {
+              "bold": false,
+              "italic": false,
+              "underline": true
+            }
+          },
+          "module_id": 2869621,
+          "parent_widget_container": null,
+          "path": "@hubspot/email_footer",
+          "schema_version": 2,
+          "startPosition": -460,
+          "style": {
+            "align": "left",
+            "font": {
+              "color": "#808080",
+              "font": "Arial, sans-serif",
+              "size": {
+                "units": "px",
+                "value": 12
+              },
+              "styles": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+              }
+            },
+            "link_font": {
+              "color": "#f15f27",
+              "font": "Helvetica,Arial,sans-serif",
+              "size": {
+                "units": "px",
+                "value": 12
+              },
+              "styles": {
+                "bold": false,
+                "italic": false,
+                "underline": true
+              }
+            }
+          },
+          "unsubscribe_link_type": "unsubscribe"
+        },
+        "child_css": {},
+        "css": {},
+        "id": "module-7-0-0",
+        "label": null,
+        "module_id": 2869621,
+        "name": "module-7-0-0",
+        "order": 10,
+        "smart_type": null,
+        "styles": {
+          "breakpointStyles": {
+            "default": {
+              "hidden": false
+            },
+            "mobile": {
+              "hidden": false
+            }
+          }
+        },
+        "type": "module"
+      },
+      "preview_text": {
+        "body": {
+          "value": "Ya estamos dentro: entra en la sala del webinar de novedades de DeiWorld."
+        },
+        "child_css": {},
+        "css": {},
+        "id": "preview_text",
+        "label": "Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>",
+        "name": "preview_text",
+        "order": 0,
+        "smart_type": null,
+        "styles": {},
+        "type": "text"
+      }
+    }
+  }
+}

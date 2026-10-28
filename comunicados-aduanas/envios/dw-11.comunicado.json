@@ -1,0 +1,29 @@
+{
+  "titular": "Adiós a picar facturas de coste",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Las facturas de coste soportado llegan cada día. Y cada día alguien de tu equipo las abre, las lee y las introduce a mano."
+    },
+    {
+      "tipo": "p",
+      "html": "Con la nueva <strong>Digitalización de facturas de coste soportado con IA</strong>, eso se acabó:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Lectura automática:</strong> La IA lee la factura y extrae la información relevante.",
+        "<strong>Tratamiento sin teclear:</strong> Los datos se incorporan al sistema sin introducción manual.",
+        "<strong>Costes al día:</strong> Menos facturas pendientes y una foto más fiel de cada operación."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "<strong>Ya la tienes disponible en DeiWorld.</strong>"
+    }
+  ]
+}

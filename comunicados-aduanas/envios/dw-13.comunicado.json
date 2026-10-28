@@ -1,0 +1,33 @@
+{
+  "titular": "Lunes, 9:00 y diez despachos pendientes",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Imagina el lunes a primera hora: diez despachos esperando, cada uno con su DUA, su factura y su packing list. Antes, eso suponía mucho trabajo tecleando."
+    },
+    {
+      "tipo": "p",
+      "html": "Con <strong>IA DUA NEXO</strong>, la mañana cambia:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Subes los documentos</strong> de cada despacho.",
+        "<strong>La IA prepara un borrador de cada despacho</strong> con los datos extraídos.",
+        "<strong>Tu equipo revisa y valida,</strong> en lugar de copiar campo a campo."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "El tiempo que ganas lo dedicas a lo que de verdad importa: <strong>tus clientes</strong>."
+    },
+    {
+      "tipo": "p",
+      "html": "Si aún no lo estáis usando, responde a este correo y te ayudamos a activarlo."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "titular": "¿Cuántas facturas de coste tienes ahora mismo sin introducir?",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "A final de mes siempre pasa lo mismo: una pila de facturas de coste esperando a que alguien las meta en el sistema, y mientras tanto, los márgenes de cada operación no están claros."
+    },
+    {
+      "tipo": "p",
+      "html": "Con la <strong>digitalización de facturas de coste soportado con IA</strong>:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>La factura llega y la IA la lee.</strong>",
+        "<strong>La información se trata automáticamente,</strong> sin introducción manual.",
+        "<strong>Tus costes están al día,</strong> sin esperar al cierre."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "<strong>Ya lo tienes en DeiWorld.</strong> Si quieres, te enseñamos a sacarle partido."
+    }
+  ]
+}

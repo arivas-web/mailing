@@ -1,0 +1,37 @@
+{
+  "titular": "Mañana tu despacho cambia para siempre",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Solo faltan <strong>24 horas</strong>. Mañana a las 12:00 verás, en directo y online, cómo la nueva versión de DeiWorld va a liberar a tu equipo de buena parte del trabajo manual."
+    },
+    {
+      "tipo": "h3",
+      "texto": "¿Por qué no puedes faltar mañana?"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Verás la IA preparando despachos:</strong> IA DUA NEXO convierte la factura comercial, el packing list y otros documentos en borradores de despacho listos para revisar.",
+        "<strong>Verás tus operaciones más ágiles:</strong> Cómo las Operaciones con IA automatizan los pasos repetitivos de tu operativa.",
+        "<strong>Verás tus prioridades, claras:</strong> La Agenda Operativa Inteligente y cómo usar la IA para saber qué atender primero."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Y, como extra, la digitalización de facturas de coste soportado con IA."
+    },
+    {
+      "tipo": "p",
+      "html": "Es nuestro primer webinar y la <strong>última oportunidad para reservar tu plaza</strong>. Te enviaremos el enlace de acceso para que entres desde tu ordenador."
+    }
+  ],
+  "boton": {
+    "texto": "Registrarme",
+    "url": "https://app.vidiv.net/event/novedades-deiworld-2026"
+  }
+}

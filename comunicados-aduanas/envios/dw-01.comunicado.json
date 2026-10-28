@@ -1,0 +1,49 @@
+{
+  "titular": "Por primera vez abrimos DeiWorld en directo (y online)",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "En un despacho de aduanas el problema no es el trabajo. Es todo el <strong>trabajo manual</strong> que hay alrededor."
+    },
+    {
+      "tipo": "p",
+      "html": "Pasar a mano los datos de la factura comercial y el packing list, sacar adelante operaciones que dependen de pasos repetitivos y revisar alertas una a una para saber qué es lo urgente."
+    },
+    {
+      "tipo": "p",
+      "html": "Por eso, por primera vez, vamos a hacer un <strong>webinar de novedades de DeiWorld</strong>. Será el <strong>martes 10 de noviembre a las 12:00</strong>, 100% online: te conectas desde tu ordenador y sin desplazamientos."
+    },
+    {
+      "tipo": "p",
+      "html": "Hemos diseñado esta versión con un único objetivo: que la Inteligencia Artificial prepare la base del trabajo y tu equipo se centre en <strong>revisar, decidir y atender al cliente</strong>."
+    },
+    {
+      "tipo": "h3",
+      "texto": "¿Qué vas a ganar ese día?"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Despachos preparados con IA:</strong> IA DUA NEXO transforma la factura comercial, el packing list y otros documentos en borradores de despacho listos para revisar.",
+        "<strong>Operaciones más ágiles:</strong> Las Operaciones con IA automatizan los pasos repetitivos para que tus procesos avancen sin esperas.",
+        "<strong>Prioridades claras:</strong> La Agenda Operativa Inteligente te muestra qué necesita atención y la IA te ayuda a ordenarlo."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Y además, verás cómo digitalizar las facturas de coste soportado con IA."
+    },
+    {
+      "tipo": "p",
+      "html": "Menos trabajo manual, menos tiempo de preparación y, siempre, <strong>tu equipo dando el visto bueno final</strong>."
+    }
+  ],
+  "boton": {
+    "texto": "Reservar mi plaza en el webinar online",
+    "url": "https://app.vidiv.net/event/novedades-deiworld-2026"
+  }
+}

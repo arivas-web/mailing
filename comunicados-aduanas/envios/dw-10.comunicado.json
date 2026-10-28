@@ -1,0 +1,29 @@
+{
+  "titular": "¿Y si tus operaciones avanzaran sin esperar a nadie?",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "¿Cuántas veces se para una operación porque falta un paso manual que nadie ha hecho todavía? Ese tiempo de espera es dinero perdido."
+    },
+    {
+      "tipo": "p",
+      "html": "Con las <strong>Operaciones con Inteligencia Artificial</strong> de DeiWorld, la IA se encarga de esos pasos:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Procesos más ágiles:</strong> La IA automatiza tareas operativas que hoy dependen de una persona.",
+        "<strong>Menos cuellos de botella:</strong> Las operaciones avanzan sin quedarse esperando en una bandeja.",
+        "<strong>Tu equipo, donde aporta:</strong> Más tiempo para el cliente y para los casos que de verdad necesitan criterio."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "<strong>Ya está disponible.</strong> Si quieres ver cómo encaja en tu operativa, te lo enseñamos."
+    }
+  ]
+}

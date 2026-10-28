@@ -1,0 +1,29 @@
+{
+  "titular": "¿ya preparas tus despachos con IA?",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Hace unas semanas te presentamos <strong>IA DUA NEXO</strong>, la herramienta que transforma la factura comercial, el packing list y otros documentos en borradores de despacho listos para revisar."
+    },
+    {
+      "tipo": "p",
+      "html": "Si todavía no la has probado, este es un buen momento:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Sin cambiar tu forma de trabajar:</strong> Cargas los mismos documentos que ya recibes.",
+        "<strong>Sin formación compleja:</strong> En una sesión corta te enseñamos a usarla.",
+        "<strong>Con resultados desde el primer día:</strong> Menos tiempo de registro y menos errores."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Además, durante esta fase inicial puedes usarla <strong>sin coste adicional</strong>, antes de que pase a un modelo de pago por uso. Reserva una demo y lo vemos con un despacho tuyo."
+    }
+  ]
+}

@@ -81,6 +81,7 @@ def main(argv):
 
     elif cmd == "clone":
         r = request("POST", f"{BASE}/clone", {"id": argv[2], "cloneName": argv[3]})
+        print(f"nombre: {argv[3]}")
         print(r["id"])
 
     elif cmd == "patch":

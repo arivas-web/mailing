@@ -1,0 +1,33 @@
+{
+  "titular": "¿Sabes realmente qué operaciones necesitan tu atención hoy?",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "A veces el día a día no deja ver lo importante. Una alerta que se pasa, una operación parada que nadie ha revisado, una pila de facturas de coste pendientes de introducir."
+    },
+    {
+      "tipo": "p",
+      "html": "En esta nueva versión de DeiWorld hemos llevado la <strong>IA a toda tu operativa</strong>:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Operaciones con IA:</strong> Los pasos repetitivos se automatizan y las operaciones avanzan sin cuellos de botella.",
+        "<strong>Agenda Operativa Inteligente:</strong> Alertas, operaciones prioritarias y asuntos relevantes del día, con una IA que te da una visión clara de tus prioridades.",
+        "<strong>Despachos y facturas con IA:</strong> IA DUA NEXO prepara borradores de despacho listos para revisar, y la digitalización de facturas de coste soportado reduce al mínimo la introducción manual."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Te invitamos a verlo en acción el <strong>martes 10 de noviembre a las 12:00</strong>, en nuestro primer webinar online de DeiWorld. Solo necesitas un ordenador y conexión a internet."
+    }
+  ],
+  "boton": {
+    "texto": "Registrarme al webinar de novedades",
+    "url": "https://app.vidiv.net/event/novedades-deiworld-2026"
+  }
+}

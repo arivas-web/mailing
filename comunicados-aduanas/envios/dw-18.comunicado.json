@@ -1,0 +1,29 @@
+{
+  "titular": "Te enseñamos las Operaciones con IA sobre tu operativa",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Cada despacho trabaja a su manera. Por eso, la mejor forma de ver qué pueden hacer las <strong>Operaciones con Inteligencia Artificial</strong> es aplicándolas a tu día a día."
+    },
+    {
+      "tipo": "p",
+      "html": "En una sesión con nuestro equipo:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Revisamos tus procesos operativos</strong> más repetitivos.",
+        "<strong>Te mostramos cuáles puede agilizar la IA.</strong>",
+        "<strong>Te dejamos listo</strong> para empezar a usarla."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "La tecnología tiene que trabajar para las personas. Esta es una oportunidad para comprobarlo."
+    }
+  ]
+}

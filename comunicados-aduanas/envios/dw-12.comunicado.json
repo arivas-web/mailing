@@ -1,0 +1,29 @@
+{
+  "titular": "¿Qué deberías atender primero hoy?",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ personalization_token('contact.firstname', 'cliente') }}."
+    },
+    {
+      "tipo": "p",
+      "html": "El día a día de un despacho está lleno de alertas, plazos y operaciones que piden atención a la vez. El reto no es trabajar más, es <strong>saber por dónde empezar</strong>."
+    },
+    {
+      "tipo": "p",
+      "html": "Para eso hemos creado la <strong>Agenda Operativa Inteligente</strong>:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Todo en una vista:</strong> Alertas, operaciones prioritarias y asuntos relevantes del día.",
+        "<strong>Lo urgente, primero:</strong> Identificas al momento qué operaciones requieren atención.",
+        "<strong>La IA te lo resume:</strong> Analiza tu agenda y te da una visión clara de tus prioridades."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "<strong>Ya está disponible en DeiWorld.</strong>"
+    }
+  ]
+}
