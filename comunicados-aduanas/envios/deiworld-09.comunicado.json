@@ -1,0 +1,29 @@
+{
+  "titular": "Tu próximo despacho, preparado con IA",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Registrar un despacho no es difícil. Es lento. Abrir el DUA, la factura comercial, el packing list y pasar cada dato a mano."
+    },
+    {
+      "tipo": "p",
+      "html": "Con <strong>IA DUA NEXO</strong>, la Inteligencia Artificial prepara la base y tu equipo la revisa:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Cargas la documentación:</strong> DUA, factura comercial o packing list, tal y como te llegan.",
+        "<strong>La IA la procesa:</strong> Lee los documentos y extrae los datos del despacho.",
+        "<strong>Tú validas:</strong> La IA genera un borrador de despacho listo para revisar; tu equipo lo valida y da el visto bueno final."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Menos tiempo tecleando y menos errores de transcripción. Ya está disponible en DeiWorld."
+    }
+  ]
+}

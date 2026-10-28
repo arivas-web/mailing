@@ -1,0 +1,37 @@
+{
+  "titular": "¿Cuánto trabajo manual podría prepararte la IA?",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Copiar datos de un documento a otro, repetir los mismos pasos en cada operación, revisar la agenda para saber por dónde empezar. Es trabajo necesario, pero no es el trabajo que hace crecer tu negocio."
+    },
+    {
+      "tipo": "p",
+      "html": "¿Y si la IA preparara esa base y tu equipo solo tuviera que revisarla?"
+    },
+    {
+      "tipo": "p",
+      "html": "En el <strong>webinar online del 10 de noviembre</strong> te enseñaremos, en directo y sobre la aplicación, las tres novedades de IA que más impacto van a tener en tu día a día:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>IA DUA NEXO:</strong> Cargas la factura comercial, el packing list y otros documentos, y la IA genera un borrador de despacho listo para revisar. Tu equipo lo valida y da el visto bueno.",
+        "<strong>Operaciones con Inteligencia Artificial:</strong> La IA agiliza y automatiza los procesos operativos que hoy dependen de tareas manuales, para que nada se quede parado esperando a alguien.",
+        "<strong>Agenda Operativa Inteligente:</strong> Alertas, operaciones prioritarias y asuntos relevantes en una sola vista, con una IA que te ayuda a analizarlos."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Es nuestro primer webinar de DeiWorld y lo hemos pensado muy práctico: nada de diapositivas eternas, todo en directo. Y como es online, puedes conectarte desde donde estés."
+    }
+  ],
+  "boton": {
+    "texto": "Asegurar mi plaza ahora",
+    "url": "https://app.vidiv.net/event/novedades-deiworld-2026"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "titular": "Te lo perdiste, pero aquí tienes la grabación",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Sabemos que el día a día no siempre deja hueco. Por eso te hemos guardado la <strong>grabación</strong> del primer webinar online de novedades de DeiWorld."
+    },
+    {
+      "tipo": "p",
+      "html": "En la grabación verás cómo la Inteligencia Artificial ha llegado a la operativa de tu despacho:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Despachos sin teclear:</strong> IA DUA NEXO prepara un borrador de despacho a partir de la documentación que cargas, listo para que tu equipo lo revise.",
+        "<strong>Operativa más ágil:</strong> Operaciones con IA que automatizan procesos que hoy son manuales.",
+        "<strong>Adiós a picar facturas:</strong> Las facturas de coste soportado se leen con IA y la introducción manual se reduce al mínimo.",
+        "<strong>Prioridades claras:</strong> La Agenda Operativa Inteligente te dice qué necesita tu atención primero."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "La buena noticia es que no tienes que esperar: todas estas novedades ya están disponibles en DeiWorld y, en esta primera fase, <strong>sin coste adicional</strong>. Más adelante pasarán a un modelo de pago por uso, así que es el mejor momento para probarlas."
+    },
+    {
+      "tipo": "p",
+      "html": "Dale al play cuando tengas un momento. Y si te surge cualquier duda, responde a este correo."
+    }
+  ]
+}

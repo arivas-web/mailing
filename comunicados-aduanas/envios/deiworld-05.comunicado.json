@@ -1,0 +1,34 @@
+{
+  "titular": "Hoy a las 12:00 te esperamos online",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Hoy es el día. <strong>A las 12:00</strong> abrimos DeiWorld en nuestro primer webinar online de novedades."
+    },
+    {
+      "tipo": "p",
+      "html": "Apunta lo que vas a ver:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "IA DUA NEXO: borradores de despacho preparados con IA, listos para revisar.",
+        "Operaciones con IA para agilizar tu operativa.",
+        "La Agenda Operativa Inteligente.",
+        "La digitalización de facturas de coste soportado."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "No necesitas instalar nada: haz clic en el enlace a la hora indicada y entrarás directamente a la sala."
+    },
+    {
+      "tipo": "p",
+      "html": "Nos vemos a mediodía."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "titular": "Tu próxima factura de coste, sin teclear",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Te lo planteamos sencillo: la próxima factura de coste soportado que recibas, <strong>que la lea la IA</strong>."
+    },
+    {
+      "tipo": "p",
+      "html": "Así de fácil es empezar:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Activa la digitalización</strong> de facturas de coste en DeiWorld.",
+        "<strong>Sube tu primera factura</strong> y comprueba cómo se trata la información.",
+        "<strong>Escríbenos</strong> si quieres que te acompañemos en la puesta en marcha."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Menos tiempo picando datos y más tiempo mejorando la rentabilidad de cada operación."
+    }
+  ]
+}

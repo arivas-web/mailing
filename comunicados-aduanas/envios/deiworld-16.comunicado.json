@@ -1,0 +1,29 @@
+{
+  "titular": "La operación que se te iba a escapar",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Todos hemos vivido esa operación que se quedó parada porque nadie vio la alerta a tiempo. Una llamada del cliente y el día se complica."
+    },
+    {
+      "tipo": "p",
+      "html": "La <strong>Agenda Operativa Inteligente</strong> está pensada para que eso no vuelva a pasar:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Abres la agenda</strong> y ves las alertas y operaciones que requieren atención.",
+        "<strong>Le preguntas a la IA</strong> qué es lo prioritario hoy.",
+        "<strong>Actúas antes</strong> de que el problema llegue al cliente."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Un vistazo por la mañana y el día, bajo control."
+    }
+  ]
+}

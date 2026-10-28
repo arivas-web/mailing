@@ -12,6 +12,10 @@ Uso:
   hubspot_api.py find <texto>                Busca emails cuyo nombre contenga <texto>
   hubspot_api.py get <emailId> [salida.json] Descarga el email completo (incluye content.widgets)
   hubspot_api.py clone <emailId> <nombre>    Clona un email; imprime el id del nuevo borrador
+  hubspot_api.py lote <emailBase> <carpeta> <prefijo>
+                                             Por cada <carpeta>/<prefijo>NN.json: clona <emailBase> con el
+                                             "name" del JSON (si no existe ya un email con ese nombre) y le
+                                             aplica el PATCH. Siempre borradores.
   hubspot_api.py patch <emailId> <cambios.json>
                                              PATCH con el JSON indicado (subject, name,
                                              previewText, content.widgets…)
@@ -94,6 +98,39 @@ def main(argv):
             sys.exit(f"ERROR: el email {argv[2]} no es un borrador (state={current.get('state')}); no se modifica")
         r = request("PATCH", f"{BASE}/{argv[2]}", body)
         print(f"OK: actualizado {r.get('id')} — estado {r.get('state')} — {r.get('name')}")
+
+    elif cmd == "lote":
+        import glob
+        base, carpeta, prefijo = argv[2], argv[3], argv[4]
+        existentes = {}
+        after = None
+        while True:
+            q = {"limit": 100, "archived": "false"}
+            if after:
+                q["after"] = after
+            r = request("GET", f"{BASE}?{urllib.parse.urlencode(q)}")
+            for e in r.get("results", []):
+                existentes[e.get("name")] = e["id"]
+            after = r.get("paging", {}).get("next", {}).get("after")
+            if not after:
+                break
+        for ruta in sorted(glob.glob(os.path.join(carpeta, prefijo + "[0-9][0-9].json"))):
+            with open(ruta) as f:
+                body = json.load(f)
+            forbidden = sorted(FORBIDDEN_FIELDS & body.keys())
+            if forbidden:
+                sys.exit(f"ERROR: prohibido tocar campos de envío/publicación: {forbidden}")
+            nombre = body["name"]
+            nuevo = existentes.get(nombre)
+            if nuevo:
+                print(f"YA EXISTE {nuevo}\t{nombre} (se reaplica el patch)")
+            else:
+                nuevo = request("POST", f"{BASE}/clone", {"id": base, "cloneName": nombre})["id"]
+            current = request("GET", f"{BASE}/{nuevo}")
+            if current.get("state") != "DRAFT" or current.get("isPublished"):
+                sys.exit(f"ERROR: el email {nuevo} no es un borrador (state={current.get('state')}); no se modifica")
+            r = request("PATCH", f"{BASE}/{nuevo}", body)
+            print(f"OK\t{r.get('id')}\t{r.get('state')}\t{nombre}")
 
     else:
         sys.exit(__doc__)

@@ -1,0 +1,29 @@
+{
+  "titular": "Empieza el año con menos tareas manuales",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Enero es buen momento para revisar cómo trabaja tu equipo. ¿Cuántas de las tareas que hacéis cada día son mecánicas y repetitivas?"
+    },
+    {
+      "tipo": "p",
+      "html": "Las <strong>Operaciones con Inteligencia Artificial</strong> de DeiWorld están pensadas justo para eso:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Detectas los pasos repetitivos</strong> de tu operativa.",
+        "<strong>La IA los agiliza y automatiza.</strong>",
+        "<strong>Tu equipo gana tiempo</strong> para gestionar más operaciones con la misma estructura."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Un buen propósito de año nuevo que sí se cumple."
+    }
+  ]
+}

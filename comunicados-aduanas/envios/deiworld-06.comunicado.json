@@ -1,0 +1,34 @@
+{
+  "titular": "Estamos en directo (entra ahora)",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Ya estamos dentro. El equipo de Visual Trans está abriendo la sala del primer webinar de novedades de DeiWorld."
+    },
+    {
+      "tipo": "p",
+      "html": "En unos minutos vamos a enseñar:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "Cómo IA DUA NEXO prepara borradores de despacho a partir de la documentación.",
+        "Las Operaciones con Inteligencia Artificial.",
+        "La Agenda Operativa Inteligente y su análisis con IA.",
+        "La digitalización de facturas de coste soportado."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "No dejes que te lo cuenten. Entra en la sala, haz tus preguntas y descubre cómo hacer que tu sistema trabaje para ti."
+    },
+    {
+      "tipo": "p",
+      "html": "Nos vemos dentro."
+    }
+  ]
+}

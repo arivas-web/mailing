@@ -1,0 +1,34 @@
+{
+  "titular": "Gracias por estar: aquí tienes la grabación de DeiWorld",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "Gracias por acompañarnos el martes en nuestro primer webinar online de novedades de DeiWorld. Para nosotros era un estreno y nos alegra mucho que estuvieras ahí."
+    },
+    {
+      "tipo": "p",
+      "html": "Como sabemos que en un webinar se ven muchas cosas, te dejamos la <strong>grabación</strong> para que vuelvas a ella cuando quieras o la compartas con tu equipo."
+    },
+    {
+      "tipo": "p",
+      "html": "Un repaso rápido de lo que vimos:"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>IA DUA NEXO:</strong> La factura comercial, el packing list y otros documentos se transforman en borradores de despacho listos para revisar.",
+        "<strong>Operaciones con Inteligencia Artificial:</strong> Procesos operativos más ágiles y automatizados.",
+        "<strong>Facturas de coste soportado con IA:</strong> Lectura y tratamiento automático, sin introducción manual.",
+        "<strong>Agenda Operativa Inteligente:</strong> Alertas y prioridades del día, con una IA que te ayuda a analizarlas."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "Las novedades ya están disponibles y, durante esta primera fase, puedes utilizarlas <strong>sin coste adicional</strong>. Queremos que las incorporéis a vuestro día a día y seguir afinándolas con vuestro feedback; más adelante pasarán a un modelo de pago por uso. Si quieres que te ayudemos a ponerlas en marcha en tu despacho, responde a este correo y lo vemos juntos."
+    }
+  ]
+}
