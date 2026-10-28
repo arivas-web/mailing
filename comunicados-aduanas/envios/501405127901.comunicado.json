@@ -1,0 +1,42 @@
+{
+  "titular": "Ya está disponible Virtual DUA 26.12: menos pasos manuales, más control",
+  "bloques": [
+    {
+      "tipo": "p",
+      "html": "Hola, {{ contact.firstname | default(\"cliente\") }}."
+    },
+    {
+      "tipo": "p",
+      "html": "En aduanas el problema no es saber hacer un DUA. Es todo lo que hay que <strong>teclear, buscar y repetir</strong> para hacerlo."
+    },
+    {
+      "tipo": "p",
+      "html": "Copiar líneas de factura, cuadrar el packing list con la calculadora, salir del programa para buscar un documento en la Sede de la AEAT o justificar DUAs uno a uno."
+    },
+    {
+      "tipo": "p",
+      "html": "Hoy llega la <strong>versión 26.12 de Virtual DUA</strong>, diseñada con un único objetivo: que tu equipo dedique su tiempo a <strong>revisar y decidir, no a copiar</strong>."
+    },
+    {
+      "tipo": "h3",
+      "texto": "¿Qué cambia desde hoy?"
+    },
+    {
+      "tipo": "ul",
+      "items": [
+        "<strong>Facturas al DUA sin teclear:</strong> vExtract, nuestra digitalización con IA, lee la factura y el packing list, cruza cada línea y monta las partidas. Tú revisas y validas.",
+        "<strong>El ARC de EMCS, sin salir del programa:</strong> al recibir la aceptación, descargas o imprimes el documento del e-DA desde la propia ventana de envío.",
+        "<strong>Un método de pago para cada tributo:</strong> garantía para el arancel, pago previo para el IVA. Ningún tributo sale sin garantizar.",
+        "<strong>Justificativos en bloque:</strong> selecciona los DUAs pendientes en el planificador y crea todos sus justificativos de una vez."
+      ]
+    },
+    {
+      "tipo": "p",
+      "html": "No es una actualización más. Es <strong>menos trabajo manual en cada expediente y más control</strong> sobre lo que envías a la aduana."
+    }
+  ],
+  "boton": {
+    "texto": "Ver las novedades de la 26.12",
+    "url": "https://visualtrans.com/productos/empuries/novedades/version-26-12/"
+  }
+}
