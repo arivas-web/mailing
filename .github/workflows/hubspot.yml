@@ -6,7 +6,7 @@ on:
       command:
         description: "Comando de hubspot_api.py"
         type: choice
-        options: [check, find, get, clone, patch]
+        options: [check, find, get, clone, patch, lote]
         default: check
       arg1:
         description: "Argumento 1 (emailId o texto a buscar)"

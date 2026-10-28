@@ -12,8 +12,8 @@ Uso:
   hubspot_api.py find <texto>                Busca emails cuyo nombre contenga <texto>
   hubspot_api.py get <emailId> [salida.json] Descarga el email completo (incluye content.widgets)
   hubspot_api.py clone <emailId> <nombre>    Clona un email; imprime el id del nuevo borrador
-  hubspot_api.py lote <emailBase> <carpeta> <prefijo>
-                                             Por cada <carpeta>/<prefijo>NN.json: clona <emailBase> con el
+  hubspot_api.py lote <emailBase> <carpeta/prefijo>
+                                             Por cada <carpeta/prefijo>NN.json: clona <emailBase> con el
                                              "name" del JSON (si no existe ya un email con ese nombre) y le
                                              aplica el PATCH. Siempre borradores.
   hubspot_api.py patch <emailId> <cambios.json>
@@ -101,7 +101,8 @@ def main(argv):
 
     elif cmd == "lote":
         import glob
-        base, carpeta, prefijo = argv[2], argv[3], argv[4]
+        base = argv[2]
+        carpeta, prefijo = os.path.split(argv[3])
         existentes = {}
         after = None
         while True:
