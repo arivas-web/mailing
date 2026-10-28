@@ -1,0 +1,41 @@
+{
+ "n": 11,
+ "name": "2026-10 novedades de DeiWorld 11/20",
+ "subject": "Adiós a picar facturas de coste",
+ "preview": "La IA lee tus facturas de coste soportado y las trata sin teclear.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Adiós a picar facturas de coste</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Las facturas de coste soportado llegan cada día. Y cada día alguien de tu equipo las abre, las lee y las introduce a mano.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Con la nueva <strong>Digitalización de facturas de coste soportado con IA</strong>, eso se acabó:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Lectura automática:</strong> La IA lee la factura y extrae la información relevante.</li>\n<li><strong>Tratamiento sin teclear:</strong> Los datos se incorporan al sistema sin introducción manual.</li>\n<li><strong>Costes al día:</strong> Menos facturas pendientes y una foto más fiel de cada operación.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Ya la tienes disponible en DeiWorld.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "n": 7,
+ "name": "2026-10 novedades de DeiWorld 7/20",
+ "subject": "Gracias por estar: aquí tienes la grabación de DeiWorld",
+ "preview": "Gracias por acompañarnos. Aquí tienes la grabación del webinar.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Gracias por estar: aquí tienes la grabación de DeiWorld</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Gracias por acompañarnos el martes en nuestro primer webinar online de novedades de DeiWorld. Para nosotros era un estreno y nos alegra mucho que estuvieras ahí.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Como sabemos que en un webinar se ven muchas cosas, te dejamos la <strong>grabación</strong> para que vuelvas a ella cuando quieras o la compartas con tu equipo.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Un repaso rápido de lo que vimos:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>IA DUA NEXO:</strong> La factura comercial, el packing list y otros documentos se transforman en borradores de despacho listos para revisar.</li>\n<li><strong>Operaciones con Inteligencia Artificial:</strong> Procesos operativos más ágiles y automatizados.</li>\n<li><strong>Facturas de coste soportado con IA:</strong> Lectura y tratamiento automático, sin introducción manual.</li>\n<li><strong>Agenda Operativa Inteligente:</strong> Alertas y prioridades del día, con una IA que te ayuda a analizarlas.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Las novedades ya están disponibles y, durante esta primera fase, puedes utilizarlas <strong>sin coste adicional</strong>. Queremos que las incorporéis a vuestro día a día y seguir afinándolas con vuestro feedback; más adelante pasarán a un modelo de pago por uso. Si quieres que te ayudemos a ponerlas en marcha en tu despacho, responde a este correo y lo vemos juntos.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

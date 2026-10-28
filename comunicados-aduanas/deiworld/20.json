@@ -1,0 +1,41 @@
+{
+ "n": 20,
+ "name": "2026-10 novedades de DeiWorld 20/20",
+ "subject": "Empieza cada mañana sabiendo qué es lo importante",
+ "preview": "Cerramos la serie con la Agenda Operativa Inteligente.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Empieza cada mañana sabiendo qué es lo importante</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Cerramos esta serie con la novedad que lo une todo: la <strong>Agenda Operativa Inteligente</strong>.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Borradores de despacho preparados con IA, operaciones automatizadas, facturas de coste digitalizadas… y una agenda que te dice qué necesita tu atención:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Alertas y operaciones prioritarias,</strong> en una sola vista.</li>\n<li><strong>Asuntos relevantes del día,</strong> sin buscarlos.</li>\n<li><strong>La IA analiza tu agenda</strong> y te ordena las prioridades.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Recuerda que, en esta primera fase, todas estas novedades están disponibles <strong>sin coste adicional</strong>; más adelante pasarán a un modelo de pago por uso. Si aún no la usas a diario, te enseñamos a configurarla.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "n": 15,
+ "name": "2026-10 novedades de DeiWorld 15/20",
+ "subject": "¿Cuántas facturas de coste tienes ahora mismo sin introducir?",
+ "preview": "Digitaliza tus facturas de coste soportado con IA y ten los costes al día.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">¿Cuántas facturas de coste tienes ahora mismo sin introducir?</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">A final de mes siempre pasa lo mismo: una pila de facturas de coste esperando a que alguien las meta en el sistema, y mientras tanto, los márgenes de cada operación no están claros.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Con la <strong>digitalización de facturas de coste soportado con IA</strong>:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>La factura llega y la IA la lee.</strong></li>\n<li><strong>La información se trata automáticamente,</strong> sin introducción manual.</li>\n<li><strong>Tus costes están al día,</strong> sin esperar al cierre.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Ya lo tienes en DeiWorld. Si quieres, te enseñamos a sacarle partido.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

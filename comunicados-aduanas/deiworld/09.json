@@ -1,0 +1,41 @@
+{
+ "n": 9,
+ "name": "2026-10 novedades de DeiWorld 9/20",
+ "subject": "Tu próximo despacho, preparado con IA",
+ "preview": "IA DUA NEXO prepara el borrador de despacho y tu equipo lo valida.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Tu próximo despacho, preparado con IA</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Registrar un despacho no es difícil. Es lento. Abrir el DUA, la factura comercial, el packing list y pasar cada dato a mano.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Con <strong>IA DUA NEXO</strong>, la Inteligencia Artificial prepara la base y tu equipo la revisa:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Cargas la documentación:</strong> DUA, factura comercial o packing list, tal y como te llegan.</li>\n<li><strong>La IA la procesa:</strong> Lee los documentos y extrae los datos del despacho.</li>\n<li><strong>Tú validas:</strong> La IA genera un borrador de despacho listo para revisar; tu equipo lo valida y da el visto bueno final.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Menos tiempo tecleando y menos errores de transcripción. Ya está disponible en DeiWorld.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

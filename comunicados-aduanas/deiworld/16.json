@@ -1,0 +1,41 @@
+{
+ "n": 16,
+ "name": "2026-10 novedades de DeiWorld 16/20",
+ "subject": "La operación que se te iba a escapar",
+ "preview": "La Agenda Operativa Inteligente para que ninguna alerta se te escape.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">La operación que se te iba a escapar</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Todos hemos vivido esa operación que se quedó parada porque nadie vio la alerta a tiempo. Una llamada del cliente y el día se complica.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">La <strong>Agenda Operativa Inteligente</strong> está pensada para que eso no vuelva a pasar:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Abres la agenda</strong> y ves las alertas y operaciones que requieren atención.</li>\n<li><strong>Le preguntas a la IA</strong> qué es lo prioritario hoy.</li>\n<li><strong>Actúas antes</strong> de que el problema llegue al cliente.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Un vistazo por la mañana y el día, bajo control.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "n": 12,
+ "name": "2026-10 novedades de DeiWorld 12/20",
+ "subject": "¿Qué deberías atender primero hoy?",
+ "preview": "La Agenda Operativa Inteligente te muestra lo urgente primero.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">¿Qué deberías atender primero hoy?</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">El día a día de un despacho está lleno de alertas, plazos y operaciones que piden atención a la vez. El reto no es trabajar más, es saber por dónde empezar.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Para eso hemos creado la <strong>Agenda Operativa Inteligente</strong>:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Todo en una vista:</strong> Alertas, operaciones prioritarias y asuntos relevantes del día.</li>\n<li><strong>Lo urgente, primero:</strong> Identificas al momento qué operaciones requieren atención.</li>\n<li><strong>La IA te lo resume:</strong> Analiza tu agenda y te da una visión clara de tus prioridades.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Ya está disponible en DeiWorld.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

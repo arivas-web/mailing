@@ -1,0 +1,41 @@
+{
+ "n": 4,
+ "name": "2026-10 novedades de DeiWorld 4/20",
+ "subject": "Mañana tu despacho cambia para siempre",
+ "preview": "Solo faltan 24 horas: mañana a las 12:00, webinar online de DeiWorld.",
+ "btn": "Registrarme",
+ "url": "https://app.vidiv.net/event/novedades-deiworld-2026",
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Mañana tu despacho cambia para siempre</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Solo faltan 24 horas. Mañana a las 12:00 verás, en directo y online, cómo la nueva versión de DeiWorld va a liberar a tu equipo de buena parte del trabajo manual.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<h3 style=\"margin:0; font-family:Arial, sans-serif; font-size:17px; color:#162846; line-height:150%; font-weight:bold\">¿Por qué no puedes faltar mañana?</h3>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Verás la IA preparando despachos:</strong> IA DUA NEXO convierte la factura comercial, el packing list y otros documentos en borradores de despacho listos para revisar.</li>\n<li><strong>Verás tus operaciones más ágiles:</strong> Cómo las Operaciones con IA automatizan los pasos repetitivos de tu operativa.</li>\n<li><strong>Verás tus prioridades, claras:</strong> La Agenda Operativa Inteligente y cómo usar la IA para saber qué atender primero.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Y, como extra, la digitalización de facturas de coste soportado con IA.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Es nuestro primer webinar y la <strong>última oportunidad para reservar tu plaza</strong>. Te enviaremos el enlace de acceso para que entres desde tu ordenador.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

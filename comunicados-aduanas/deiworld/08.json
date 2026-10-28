@@ -1,0 +1,41 @@
+{
+ "n": 8,
+ "name": "2026-10 novedades de DeiWorld 8/20",
+ "subject": "Te lo perdiste, pero aquí tienes la grabación",
+ "preview": "Te hemos guardado la grabación del primer webinar de novedades de DeiWorld.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Te lo perdiste, pero aquí tienes la grabación</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Sabemos que el día a día no siempre deja hueco. Por eso te hemos guardado la <strong>grabación</strong> del primer webinar online de novedades de DeiWorld.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">En la grabación verás cómo la Inteligencia Artificial ha llegado a la operativa de tu despacho:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Despachos sin teclear:</strong> IA DUA NEXO prepara un borrador de despacho a partir de la documentación que cargas, listo para que tu equipo lo revise.</li>\n<li><strong>Operativa más ágil:</strong> Operaciones con IA que automatizan procesos que hoy son manuales.</li>\n<li><strong>Adiós a picar facturas:</strong> Las facturas de coste soportado se leen con IA y la introducción manual se reduce al mínimo.</li>\n<li><strong>Prioridades claras:</strong> La Agenda Operativa Inteligente te dice qué necesita tu atención primero.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">La buena noticia es que no tienes que esperar: todas estas novedades ya están disponibles en DeiWorld y, en esta primera fase, <strong>sin coste adicional</strong>. Más adelante pasarán a un modelo de pago por uso, así que es el mejor momento para probarlas.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Dale al play cuando tengas un momento. Y si te surge cualquier duda, responde a este correo.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

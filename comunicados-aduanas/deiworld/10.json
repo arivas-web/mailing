@@ -1,0 +1,41 @@
+{
+ "n": 10,
+ "name": "2026-10 novedades de DeiWorld 10/20",
+ "subject": "¿Y si tus operaciones avanzaran sin esperar a nadie?",
+ "preview": "Operaciones con IA: menos cuellos de botella y menos pasos manuales.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">¿Y si tus operaciones avanzaran sin esperar a nadie?</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">¿Cuántas veces se para una operación porque falta un paso manual que nadie ha hecho todavía? Ese tiempo de espera es dinero perdido.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Con las <strong>Operaciones con Inteligencia Artificial</strong> de DeiWorld, la IA se encarga de esos pasos:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Procesos más ágiles:</strong> La IA automatiza tareas operativas que hoy dependen de una persona.</li>\n<li><strong>Menos cuellos de botella:</strong> Las operaciones avanzan sin quedarse esperando en una bandeja.</li>\n<li><strong>Tu equipo, donde aporta:</strong> Más tiempo para el cliente y para los casos que de verdad necesitan criterio.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Ya está disponible. Si quieres ver cómo encaja en tu operativa, te lo enseñamos.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

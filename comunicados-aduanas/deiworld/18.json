@@ -1,0 +1,41 @@
+{
+ "n": 18,
+ "name": "2026-10 novedades de DeiWorld 18/20",
+ "subject": "Te enseñamos las Operaciones con IA sobre tu operativa",
+ "preview": "Una sesión con nuestro equipo para aplicar las Operaciones con IA a tu día a día.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Te enseñamos las Operaciones con IA sobre tu operativa</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Cada despacho trabaja a su manera. Por eso, la mejor forma de ver qué pueden hacer las Operaciones con Inteligencia Artificial es aplicándolas a tu día a día.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">En una sesión con nuestro equipo:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Revisamos tus procesos operativos</strong> más repetitivos.</li>\n<li><strong>Te mostramos cuáles puede agilizar la IA.</strong></li>\n<li><strong>Te dejamos listo</strong> para empezar a usarla.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">La tecnología tiene que trabajar para las personas. Esta es una oportunidad para comprobarlo.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "n": 17,
+ "name": "2026-10 novedades de DeiWorld 17/20",
+ "subject": "{{ personalization_token('contact.firstname', 'Hola') }}, ¿ya preparas tus despachos con IA?",
+ "preview": "Si aún no has probado IA DUA NEXO, este es un buen momento. Reserva tu demo.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">¿Ya preparas tus despachos con IA?</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Hace unas semanas te presentamos <strong>IA DUA NEXO</strong>, la herramienta que transforma la factura comercial, el packing list y otros documentos en borradores de despacho listos para revisar.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Si todavía no la has probado, este es un buen momento:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li><strong>Sin cambiar tu forma de trabajar:</strong> Cargas los mismos documentos que ya recibes.</li>\n<li><strong>Sin formación compleja:</strong> En una sesión corta te enseñamos a usarla.</li>\n<li><strong>Con resultados desde el primer día:</strong> Menos tiempo de registro y menos errores.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Además, durante esta fase inicial puedes usarla <strong>sin coste adicional</strong>, antes de que pase a un modelo de pago por uso. Reserva una demo y lo vemos con un despacho tuyo.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "n": 6,
+ "name": "2026-10 novedades de DeiWorld 6/20",
+ "subject": "{{ personalization_token('contact.firstname', 'Hola') }}, estamos en directo (entra ahora)",
+ "preview": "Ya estamos dentro: abrimos la sala del webinar de novedades de DeiWorld.",
+ "btn": null,
+ "url": null,
+ "titular": "<h1 style=\"line-height: 125%; font-weight: normal;\">Estamos en directo (entra ahora)</h1>",
+ "cuerpo": "<p style=\"margin:0; line-height:175%\">Hola, {{ personalization_token('contact.firstname', 'cliente') }}.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Ya estamos dentro. El equipo de Visual Trans está abriendo la sala del primer webinar de novedades de DeiWorld.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">En unos minutos vamos a enseñar:</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<ul style=\"line-height:175%; margin:0; padding-left:24px\">\n<li>Cómo IA DUA NEXO prepara borradores de despacho a partir de la documentación.</li>\n<li>Las Operaciones con Inteligencia Artificial.</li>\n<li>La Agenda Operativa Inteligente y su análisis con IA.</li>\n<li>La digitalización de facturas de coste soportado.</li>\n</ul>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">No dejes que te lo cuenten. Entra en la sala, haz tus preguntas y descubre cómo hacer que tu sistema trabaje para ti.</p>\n<p style=\"margin:0; line-height:175%\">&nbsp;</p>\n<p style=\"margin:0; line-height:175%\">Nos vemos dentro.</p>",
+ "firma": "<p>Un saludo,</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Pablo Soriano</span></p>\n<p>CEO de DeiWorld</p>",
+ "from": {
+  "fromName": "Pablo Soriano, CEO de DeiWorld",
+  "replyTo": "pablosoriano@visualtrans.com"
+ },
+ "to": {
+  "contactIlsLists": {
+   "include": [
+    "195",
+    "100",
+    "250",
+    "718"
+   ],
+   "exclude": [
+    "259",
+    "780"
+   ]
+  },
+  "contactLists": {
+   "include": [
+    "106",
+    "36",
+    "130",
+    "433"
+   ],
+   "exclude": [
+    "137",
+    "468"
+   ]
+  }
+ }
+}
