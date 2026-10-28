@@ -12,9 +12,6 @@ Uso:
   hubspot_api.py find <texto>                Busca emails cuyo nombre contenga <texto>
   hubspot_api.py get <emailId> [salida.json] Descarga el email completo (incluye content.widgets)
   hubspot_api.py clone <emailId> <nombre>    Clona un email; imprime el id del nuevo borrador
-  hubspot_api.py batch <emailIdBase> <carpeta>
-                                             Por cada NN.json de la carpeta: clona el base, rellena
-                                             titular/cuerpo/botón/firma y deja el clon en borrador
   hubspot_api.py patch <emailId> <cambios.json>
                                              PATCH con el JSON indicado (subject, name,
                                              previewText, content.widgets…)
@@ -98,32 +95,6 @@ def main(argv):
             sys.exit(f"ERROR: el email {argv[2]} no es un borrador (state={current.get('state')}); no se modifica")
         r = request("PATCH", f"{BASE}/{argv[2]}", body)
         print(f"OK: actualizado {r.get('id')} — estado {r.get('state')} — {r.get('name')}")
-
-    elif cmd == "batch":
-        for fn in sorted(f for f in os.listdir(argv[3]) if f.endswith(".json")):
-            with open(os.path.join(argv[3], fn)) as f:
-                c = json.load(f)
-            new_id = request("POST", f"{BASE}/clone", {"id": argv[2], "cloneName": c["name"]})["id"]
-            cur = request("GET", f"{BASE}/{new_id}")
-            if cur.get("state") != "DRAFT" or cur.get("isPublished"):
-                sys.exit(f"ERROR: el clon {new_id} no es un borrador (state={cur.get('state')})")
-            w = cur["content"]["widgets"]
-            w["module-1-0-1"]["body"]["html"] = c["titular"]
-            w["module-1-0-2"]["body"]["html"] = c["cuerpo"]
-            w["module-5-0-0"]["body"]["html"] = c["firma"]
-            w["preview_text"]["body"]["value"] = c["preview"]
-            if c.get("btn"):
-                w["module-1-0-3"]["body"]["destination"] = c["url"]
-                w["module-1-0-3"]["body"]["text"] = c["btn"]
-            else:
-                w.pop("module-1-0-3", None)
-            body = {"subject": c["subject"], "from": c["from"], "to": c["to"],
-                    "previewText": c["preview"], "content": {"widgets": w}}
-            forbidden = sorted(FORBIDDEN_FIELDS & body.keys())
-            if forbidden:
-                sys.exit(f"ERROR: prohibido tocar campos de envío/publicación: {forbidden}")
-            r = request("PATCH", f"{BASE}/{new_id}", body)
-            print(f"{fn}\t{r.get('id')}\t{r.get('state')}\t{r.get('name')}")
 
     else:
         sys.exit(__doc__)
